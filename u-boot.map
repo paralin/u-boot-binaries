@@ -1,0 +1,1922 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+                              arch/arm/cpu/armv7/exynos/libexynos.o (__aeabi_uidiv)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+                              common/libcommon.o (__aeabi_idiv)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+                              common/libcommon.o (__aeabi_llsr)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+                              drivers/mmc/libmmc.o (__aeabi_llsl)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+                              arch/arm/cpu/armv7/s5p-common/libs5p-common.o (__aeabi_uldivmod)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+                              /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+                              /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o) (__gnu_uldivmod_helper)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+                              /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o) (__divdi3)
+/home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+                              /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o) (__udivdi3)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+                0x0000000000000000                . = 0x0
+                0x0000000000000000                . = ALIGN (0x4)
+
+.text           0x0000000043e00000    0x2fbdc
+                0x0000000043e00000                __image_copy_start = .
+ arch/arm/cpu/armv7/start.o(.text)
+ .text          0x0000000043e00000      0x4c0 arch/arm/cpu/armv7/start.o
+                0x0000000043e00000                _start
+                0x0000000043e00040                _end_vect
+                0x0000000043e00040                _TEXT_BASE
+                0x0000000043e00044                _bss_start_ofs
+                0x0000000043e00048                _image_copy_end_ofs
+                0x0000000043e0004c                _bss_end_ofs
+                0x0000000043e00050                _end_ofs
+                0x0000000043e00054                IRQ_STACK_START_IN
+                0x0000000043e000a8                relocate_code
+                0x0000000043e001d8                cpu_init_cp15
+                0x0000000043e00210                cpu_init_crit
+ *(.text)
+ .text          0x0000000043e004c0      0xeb4 arch/arm/cpu/armv7/exynos/libexynos.o
+                0x0000000043e00520                exynos4_set_lcd_clk
+                0x0000000043e00564                exynos4_set_mipi_clk
+                0x0000000043e005ac                get_pll_clk
+                0x0000000043e007c4                get_arm_clk
+                0x0000000043e00814                get_pwm_clk
+                0x0000000043e008d0                get_uart_clk
+                0x0000000043e009a0                get_usbdrd_clk
+                0x0000000043e009d8                set_mmc_clk
+                0x0000000043e00a80                get_mmc_clk
+                0x0000000043e00ba4                get_lcd_clk
+                0x0000000043e00c14                set_lcd_clk
+                0x0000000043e00c30                set_mipi_clk
+                0x0000000043e00c84                set_mipi_phy_ctrl
+                0x0000000043e00cd0                exynos5_set_usbhost_phy_ctrl
+                0x0000000043e00cf4                set_usbhost_phy_ctrl
+                0x0000000043e00d10                reset_cpu
+                0x0000000043e00d84                set_usbhost_mode
+                0x0000000043e00dc0                set_system_display_ctrl
+                0x0000000043e00e54                exynos_pinmux_config
+                0x0000000043e011b4                init_raw_area_table
+ .text          0x0000000043e01374       0xd0 arch/arm/cpu/armv7/libarmv7.o
+                0x0000000043e01374                invalidate_dcache_all
+                0x0000000043e01378                flush_dcache_all
+                0x0000000043e0137c                invalidate_dcache_range
+                0x0000000043e01380                flush_dcache_range
+                0x0000000043e01384                arm_init_before_mmu
+                0x0000000043e01388                flush_cache
+                0x0000000043e0138c                invalidate_icache_all
+                0x0000000043e013a4                __v7_outer_cache_enable
+                0x0000000043e013a4                v7_outer_cache_enable
+                0x0000000043e013a8                v7_outer_cache_disable
+                0x0000000043e013a8                __v7_outer_cache_disable
+                0x0000000043e013ac                __v7_outer_cache_flush_all
+                0x0000000043e013ac                v7_outer_cache_flush_all
+                0x0000000043e013b0                v7_outer_cache_inval_all
+                0x0000000043e013b0                __v7_outer_cache_inval_all
+                0x0000000043e013b4                v7_outer_cache_flush_range
+                0x0000000043e013b4                __v7_outer_cache_flush_range
+                0x0000000043e013b8                __v7_outer_cache_inval_range
+                0x0000000043e013b8                v7_outer_cache_inval_range
+                0x0000000043e013bc                save_boot_params_default
+                0x0000000043e013bc                save_boot_params
+                0x0000000043e013c0                cleanup_before_linux
+                0x0000000043e013e4                sdelay
+                0x0000000043e013f0                sr32
+                0x0000000043e01410                wait_on_value
+ .text          0x0000000043e01444      0x5fc arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+                0x0000000043e01444                arch_cpu_init
+                0x0000000043e014f4                get_device_type
+                0x0000000043e01504                print_cpuinfo
+                0x0000000043e015f8                get_timer
+                0x0000000043e0163c                __udelay
+                0x0000000043e01664                reset_timer_masked
+                0x0000000043e01680                timer_init
+                0x0000000043e016d4                get_ticks
+                0x0000000043e016e8                get_tbclk
+                0x0000000043e016f0                s5p_config_sromc
+                0x0000000043e0177c                wdt_stop
+                0x0000000043e01794                wdt_start
+                0x0000000043e01800                pwm_enable
+                0x0000000043e01830                pwm_disable
+                0x0000000043e0185c                pwm_config
+                0x0000000043e01994                pwm_init
+ .text          0x0000000043e01a40      0xa28 arch/arm/lib/libarm.o
+                0x0000000043e01a40                __arch_cpu_init
+                0x0000000043e01a94                coloured_LED_init
+                0x0000000043e01a94                __coloured_LED_init
+                0x0000000043e01a98                __red_led_on
+                0x0000000043e01a98                red_led_on
+                0x0000000043e01a9c                __red_led_off
+                0x0000000043e01a9c                red_led_off
+                0x0000000043e01aa0                green_led_on
+                0x0000000043e01aa0                __green_led_on
+                0x0000000043e01aa4                green_led_off
+                0x0000000043e01aa4                __green_led_off
+                0x0000000043e01aa8                yellow_led_on
+                0x0000000043e01aa8                __yellow_led_on
+                0x0000000043e01aac                __yellow_led_off
+                0x0000000043e01aac                yellow_led_off
+                0x0000000043e01ab0                blue_led_on
+                0x0000000043e01ab0                __blue_led_on
+                0x0000000043e01ab4                __blue_led_off
+                0x0000000043e01ab4                blue_led_off
+                0x0000000043e01ab8                __dram_init_banksize
+                0x0000000043e01ad4                board_init_r
+                0x0000000043e01b88                hang
+                0x0000000043e01b9c                board_init_f
+                0x0000000043e01d80                arch_lmb_reserve
+                0x0000000043e01da4                setup_revision_tag
+                0x0000000043e0205c                do_bootm_linux
+                0x0000000043e020b0                bootz_setup
+                0x0000000043e020f4                interrupt_init
+                0x0000000043e02110                enable_interrupts
+                0x0000000043e02114                disable_interrupts
+                0x0000000043e0211c                bad_mode
+                0x0000000043e0212c                show_regs
+                0x0000000043e02268                do_undefined_instruction
+                0x0000000043e02288                do_software_interrupt
+                0x0000000043e022a8                do_prefetch_abort
+                0x0000000043e022c8                do_data_abort
+                0x0000000043e022e8                do_not_used
+                0x0000000043e02308                do_fiq
+                0x0000000043e02328                do_irq
+                0x0000000043e02348                do_reset
+                0x0000000043e023cc                __flush_cache
+                0x0000000043e023d0                __flush_dcache_all
+                0x0000000043e023dc                enable_caches
+                0x0000000043e023dc                __enable_caches
+                0x0000000043e02418                __arm_init_before_mmu
+                0x0000000043e0241c                icache_enable
+                0x0000000043e02434                icache_disable
+                0x0000000043e0244c                icache_status
+                0x0000000043e02458                dcache_enable
+                0x0000000043e0245c                dcache_disable
+                0x0000000043e02460                dcache_status
+ .text          0x0000000043e02468    0x15550 common/libcommon.o
+                0x0000000043e02480                do_bdinfo
+                0x0000000043e025d4                do_go_exec
+                0x0000000043e025e4                do_go
+                0x0000000043e02698                do_bootd
+                0x0000000043e02b24                do_iminfo
+                0x0000000043e02f60                arch_preboot_os
+                0x0000000043e02f60                __arch_preboot_os
+                0x0000000043e02f64                do_bootm_subcommand
+                0x0000000043e031ec                do_bootm
+                0x0000000043e03498                bootm_maybe_autostart
+                0x0000000043e03528                do_bootz
+                0x0000000043e0366c                do_coninfo
+                0x0000000043e03728                do_echo
+                0x0000000043e03844                do_bootelf_exec
+                0x0000000043e03888                valid_elf_image
+                0x0000000043e038d4                do_bootelf
+                0x0000000043e03a2c                do_bootvx
+                0x0000000043e03cb4                do_exit
+                0x0000000043e03ce4                do_ext2ls
+                0x0000000043e03cfc                do_ext2load
+                0x0000000043e03d14                do_ext_load
+                0x0000000043e04064                do_ext_ls
+                0x0000000043e04860                LCD_turnon
+                0x0000000043e04864                LCD_setfgcolor
+                0x0000000043e04868                LCD_setleftcolor
+                0x0000000043e0486c                LCD_setprogress
+                0x0000000043e04870                fastboot_flash_add_ptn
+                0x0000000043e048ac                fastboot_flash_dump_ptn
+                0x0000000043e04a00                fastboot_flash_find_ptn
+                0x0000000043e05618                fastboot_flash_get_ptn
+                0x0000000043e05a94                do_fastboot
+                0x0000000043e061c8                fastboot_flash_get_ptn_count
+                0x0000000043e061d8                do_fat_fsinfo
+                0x0000000043e062b4                do_fat_format
+                0x0000000043e063a0                do_fat_cfgload
+                0x0000000043e0652c                do_fat_fsload
+                0x0000000043e066ac                do_fat_ls
+                0x0000000043e06a54                set_working_fdt_addr
+                0x0000000043e06a90                do_fdt
+                0x0000000043e076c4                do_flinfo
+                0x0000000043e076cc                do_flerase
+                0x0000000043e076d4                do_protect
+                0x0000000043e076e4                do_help
+                0x0000000043e077a0                binary_test
+                0x0000000043e07980                do_itest
+                0x0000000043e07d50                do_load_serial
+                0x0000000043e07e2c                send_pad
+                0x0000000043e07e5c                ktrans
+                0x0000000043e07e80                chk1
+                0x0000000043e07ea8                s1_sendpacket
+                0x0000000043e07ed0                send_ack
+                0x0000000043e07f2c                send_nack
+                0x0000000043e07f88                k_data_init
+                0x0000000043e07fa0                k_data_save
+                0x0000000043e07fc4                k_data_restore
+                0x0000000043e07fe8                k_data_char
+                0x0000000043e08038                handle_send_packet
+                0x0000000043e081fc                do_load_serial_bin
+                0x0000000043e08664                do_mem_mw
+                0x0000000043e08720                do_mem_loop
+                0x0000000043e0880c                do_mem_md
+                0x0000000043e088d8                do_mem_cmp
+                0x0000000043e08a2c                do_mem_base
+                0x0000000043e08a6c                do_mem_cp
+                0x0000000043e08b40                do_mem_mtest
+                0x0000000043e08ce0                do_mem_crc
+                0x0000000043e08ee0                do_mem_mm
+                0x0000000043e08ee8                do_mem_nm
+                0x0000000043e08ef0                do_sleep
+                0x0000000043e08f60                do_mmcinfo
+                0x0000000043e09138                do_mmcops
+                0x0000000043e0968c                do_emmc
+                0x0000000043e09824                calc_unit
+                0x0000000043e09870                encode_chs
+                0x0000000043e09888                encode_partitionInfo
+                0x0000000043e09918                decode_partitionInfo
+                0x0000000043e09958                get_SDInfo
+                0x0000000043e09a38                make_partitionInfo
+                0x0000000043e09be8                make_mmc_partition
+                0x0000000043e09fa0                get_mmc_block_count
+                0x0000000043e09fe4                get_mmc_mbr
+                0x0000000043e0a040                put_mmc_mbr
+                0x0000000043e0a0c8                get_mmc_part_info
+                0x0000000043e0a174                print_mmc_part_info
+                0x0000000043e0a304                create_mmc_fdisk
+                0x0000000043e0a3a0                do_fdisk
+                0x0000000043e0a428                do_movi
+                0x0000000043e0a820                do_ping
+                0x0000000043e0ab30                do_bootp
+                0x0000000043e0ab3c                do_tftpb
+                0x0000000043e0ab48                do_nfs
+                0x0000000043e0ac0c                do_env_save
+                0x0000000043e0af14                do_env_print
+                0x0000000043e0af98                get_env_id
+                0x0000000043e0afa8                _do_env_set
+                0x0000000043e0b2c4                do_env_set
+                0x0000000043e0b2e4                setenv
+                0x0000000043e0b580                setenv_ulong
+                0x0000000043e0b5a0                setenv_addr
+                0x0000000043e0b5d4                envmatch
+                0x0000000043e0b63c                getenv_f
+                0x0000000043e0b6fc                getenv
+                0x0000000043e0b768                do_env_edit
+                0x0000000043e0b7d0                getenv_ulong
+                0x0000000043e0b800                source
+                0x0000000043e0b91c                do_source
+                0x0000000043e0b964                do_false
+                0x0000000043e0b96c                do_true
+                0x0000000043e0b974                do_test
+                0x0000000043e0bdd4                do_usbboot
+                0x0000000043e0c0ec                usb_get_class_desc
+                0x0000000043e0c1a8                usb_display_class_sub
+                0x0000000043e0c318                usb_display_string
+                0x0000000043e0c35c                usb_display_desc
+                0x0000000043e0c494                usb_display_conf_desc
+                0x0000000043e0c540                usb_display_if_desc
+                0x0000000043e0c5c8                usb_display_ep_desc
+                0x0000000043e0c684                usb_display_config
+                0x0000000043e0c700                usb_show_tree_graph
+                0x0000000043e0c928                usb_show_tree
+                0x0000000043e0c958                do_usb
+                0x0000000043e0ce8c                do_usbd_dnw
+                0x0000000043e0cfa0                do_version
+                0x0000000043e0cfd8                do_imgextract
+                0x0000000043e0d280                find_cmd_tbl
+                0x0000000043e0d324                find_cmd
+                0x0000000043e0d34c                cmd_usage
+                0x0000000043e0d3a8                _do_help
+                0x0000000043e0d528                cmd_get_data_size
+                0x0000000043e0d584                cmd_process
+                0x0000000043e0d6dc                serial_printf
+                0x0000000043e0d71c                fgetc
+                0x0000000043e0d740                ftstc
+                0x0000000043e0d764                fputc
+                0x0000000043e0d784                fputs
+                0x0000000043e0d7a4                fprintf
+                0x0000000043e0d7ec                getc
+                0x0000000043e0d81c                tstc
+                0x0000000043e0d84c                putc
+                0x0000000043e0d87c                puts
+                0x0000000043e0d8ac                printf
+                0x0000000043e0d8f8                vprintf
+                0x0000000043e0d934                ctrlc
+                0x0000000043e0d984                disable_ctrlc
+                0x0000000043e0d99c                had_ctrlc
+                0x0000000043e0d9ac                clear_ctrlc
+                0x0000000043e0d9c0                dbg
+                0x0000000043e0d9cc                search_device
+                0x0000000043e0d9f4                console_assign
+                0x0000000043e0da3c                console_init_f
+                0x0000000043e0da4c                stdio_print_current_devices
+                0x0000000043e0dafc                console_init_r
+                0x0000000043e0dbdc                check_compress_ext4
+                0x0000000043e0dcc8                write_compressed_ext4
+                0x0000000043e0ddc0                sbrk
+                0x0000000043e0de24                mem_malloc_init
+                0x0000000043e0de48                malloc_trim
+                0x0000000043e0df08                free
+                0x0000000043e0e130                malloc
+                0x0000000043e0e708                calloc
+                0x0000000043e0e7dc                realloc
+                0x0000000043e0ec9c                memalign
+                0x0000000043e0eda8                valloc
+                0x0000000043e0edb4                pvalloc
+                0x0000000043e0edcc                cfree
+                0x0000000043e0edd0                malloc_usable_size
+                0x0000000043e0ee0c                mallopt
+                0x0000000043e0ee78                env_get_char_spec
+                0x0000000043e0ee84                env_get_addr
+                0x0000000043e0eea4                env_get_char_memory
+                0x0000000043e0eeb4                env_get_char
+                0x0000000043e0eee4                set_default_env
+                0x0000000043e0ef88                env_import
+                0x0000000043e0f058                env_relocate
+                0x0000000043e0f0bc                mmc_get_env_addr
+                0x0000000043e0f0d0                env_init
+                0x0000000043e0f0ec                saveenv
+                0x0000000043e0f240                env_relocate_spec
+                0x0000000043e0f300                get_version
+                0x0000000043e0f308                jumptable_init
+                0x0000000043e0f6cc                fdt_getprop_u32_default
+                0x0000000043e0f714                fdt_find_and_setprop
+                0x0000000043e0f784                fdt_initrd
+                0x0000000043e0f94c                fdt_chosen
+                0x0000000043e0fa58                do_fixup_by_path
+                0x0000000043e0faac                do_fixup_by_path_u32
+                0x0000000043e0faf4                do_fixup_by_prop
+                0x0000000043e0fb88                do_fixup_by_prop_u32
+                0x0000000043e0fbe4                do_fixup_by_compat
+                0x0000000043e0fc6c                do_fixup_by_compat_u32
+                0x0000000043e0fcb4                fdt_fixup_memory_banks
+                0x0000000043e0ff20                fdt_fixup_memory
+                0x0000000043e0ff40                fdt_fixup_ethernet
+                0x0000000043e10080                fdt_resize
+                0x0000000043e10154                fdt_increase_size
+                0x0000000043e1017c                fdt_del_node_and_alias
+                0x0000000043e101c0                __of_translate_address
+                0x0000000043e1040c                fdt_translate_address
+                0x0000000043e10418                fdt_node_offset_by_compat_reg
+                0x0000000043e104a0                fdt_alloc_phandle
+                0x0000000043e104f8                fdt_set_phandle
+                0x0000000043e1053c                fdt_create_phandle
+                0x0000000043e105a0                fdt_set_node_status
+                0x0000000043e106b8                fdt_set_status_by_alias
+                0x0000000043e106e4                fdt_verify_alias_address
+                0x0000000043e107b0                fdt_get_base_address
+                0x0000000043e10a30                do_showvar
+                0x0000000043e10e24                get_local_var
+                0x0000000043e10ff4                set_local_var
+                0x0000000043e111a0                unset_local_var
+                0x0000000043e11240                new_pipe
+                0x0000000043e112b0                reserved_word
+                0x0000000043e1157c                mapset
+                0x0000000043e115a0                update_ifs_map
+                0x0000000043e11610                parse_string_outer
+                0x0000000043e12408                parse_file_outer
+                0x0000000043e1244c                u_boot_hush_start
+                0x0000000043e12500                image_check_hcrc
+                0x0000000043e12550                image_check_dcrc
+                0x0000000043e12590                image_multi_count
+                0x0000000043e125ac                image_multi_getimg
+                0x0000000043e12634                getenv_yesno
+                0x0000000043e1265c                getenv_bootm_low
+                0x0000000043e1268c                getenv_bootm_size
+                0x0000000043e126e8                getenv_bootm_mapsize
+                0x0000000043e12718                memmove_wd
+                0x0000000043e12724                genimg_print_size
+                0x0000000043e12754                get_table_entry_name
+                0x0000000043e12780                genimg_get_os_name
+                0x0000000043e12798                genimg_get_arch_name
+                0x0000000043e127b0                genimg_get_type_name
+                0x0000000043e127c8                genimg_get_comp_name
+                0x0000000043e127e0                image_print_contents
+                0x0000000043e1295c                get_table_entry_id
+                0x0000000043e129a8                genimg_get_os_id
+                0x0000000043e129c0                genimg_get_arch_id
+                0x0000000043e129d8                genimg_get_type_id
+                0x0000000043e129f0                genimg_get_comp_id
+                0x0000000043e12a08                genimg_get_format
+                0x0000000043e12a3c                genimg_get_image
+                0x0000000043e12a40                genimg_has_config
+                0x0000000043e12a48                boot_get_ramdisk
+                0x0000000043e12cb4                boot_ramdisk_high
+                0x0000000043e12de4                boot_fdt_add_mem_rsv_regions
+                0x0000000043e12e6c                boot_relocate_fdt
+                0x0000000043e13004                boot_get_fdt
+                0x0000000043e1340c                __show_boot_progress
+                0x0000000043e1340c                show_boot_progress
+                0x0000000043e13410                readline_into_buffer
+                0x0000000043e13ce4                readline
+                0x0000000043e13d00                parse_line
+                0x0000000043e13d88                run_command
+                0x0000000043e13d90                main_loop
+                0x0000000043e13ed8                do_run
+                0x0000000043e13f4c                get_ram_size
+                0x0000000043e140c8                srec_decode
+                0x0000000043e14358                serial_register
+                0x0000000043e14370                serial_stdio_init
+                0x0000000043e143f8                serial_assign
+                0x0000000043e14444                serial_initialize
+                0x0000000043e14484                serial_reinit_all
+                0x0000000043e144b0                serial_init
+                0x0000000043e144c4                serial_setbrg
+                0x0000000043e144d8                serial_getc
+                0x0000000043e144ec                serial_tstc
+                0x0000000043e14500                serial_putc
+                0x0000000043e1451c                serial_puts
+                0x0000000043e14538                stdio_get_list
+                0x0000000043e14544                stdio_get_by_name
+                0x0000000043e145a0                stdio_clone
+                0x0000000043e145e8                stdio_register
+                0x0000000043e14624                stdio_init
+                0x0000000043e14720                usb_stop
+                0x0000000043e14754                usb_disable_asynch
+                0x0000000043e14774                usb_submit_int_msg
+                0x0000000043e14778                usb_control_msg
+                0x0000000043e14a14                usb_bulk_msg
+                0x0000000043e14a88                usb_maxpacket
+                0x0000000043e14aa4                usb_clear_halt
+                0x0000000043e14b38                usb_get_configuration_no
+                0x0000000043e14bd8                usb_set_interface
+                0x0000000043e14c88                usb_set_protocol
+                0x0000000043e14cdc                usb_set_idle
+                0x0000000043e14d38                usb_get_report
+                0x0000000043e14d9c                usb_get_class_descriptor
+                0x0000000043e14e00                usb_string
+                0x0000000043e14f00                usb_get_dev_index
+                0x0000000043e14f2c                usb_alloc_new_device
+                0x0000000043e14fc4                usb_new_device
+                0x0000000043e1546c                usb_init
+                0x0000000043e156f0                usb_hub_reset
+                0x0000000043e15704                hub_port_reset
+                0x0000000043e157b0                usb_hub_port_connect_change
+                0x0000000043e15b38                usb_hub_probe
+                0x0000000043e15e64                usb_stor_write
+                0x0000000043e16044                usb_stor_read
+                0x0000000043e16224                usb_stor_get_dev
+                0x0000000043e16248                usb_show_progress
+                0x0000000043e1624c                usb_stor_info
+                0x0000000043e162b8                usb_stor_BBB_comdat
+                0x0000000043e16394                usb_stor_CB_comdat
+                0x0000000043e165b4                usb_stor_CBI_get_status
+                0x0000000043e1667c                usb_stor_CB_transport
+                0x0000000043e168a4                usb_stor_BBB_clear_endpt_stall
+                0x0000000043e168f0                usb_stor_BBB_transport
+                0x0000000043e16ac0                usb_storage_probe
+                0x0000000043e16cd0                usb_stor_get_info
+                0x0000000043e16edc                usb_stor_scan
+                0x0000000043e170e4                CYGACC_COMM_IF_GETC_TIMEOUT
+                0x0000000043e173d0                CYGACC_COMM_IF_PUTC
+                0x0000000043e173d8                parse_num
+                0x0000000043e17508                xyzModem_stream_open
+                0x0000000043e17650                xyzModem_stream_read
+                0x0000000043e178b0                xyzModem_stream_close
+                0x0000000043e17904                xyzModem_stream_terminate
+                0x0000000043e17998                xyzModem_error
+ .text          0x0000000043e179b8      0x8cc disk/libdisk.o
+                0x0000000043e179b8                get_dev
+                0x0000000043e17a28                dev_print
+                0x0000000043e17c24                init_part
+                0x0000000043e17c40                get_partition_info
+                0x0000000043e17c6c                print_part
+                0x0000000043e181cc                test_part_dos
+                0x0000000043e18238                print_part_dos
+                0x0000000043e18264                get_partition_info_dos
+ .text          0x0000000043e18284      0x200 drivers/gpio/libgpio.o
+                0x0000000043e18284                s5p_gpio_cfg_pin
+                0x0000000043e182a0                s5p_gpio_direction_output
+                0x0000000043e182d8                s5p_gpio_direction_input
+                0x0000000043e182e0                s5p_gpio_set_value
+                0x0000000043e18300                s5p_gpio_get_value
+                0x0000000043e18318                s5p_gpio_set_pull
+                0x0000000043e18344                s5p_gpio_set_drv
+                0x0000000043e18368                s5p_gpio_set_rate
+                0x0000000043e18390                s5p_gpio_get_bank
+                0x0000000043e183e0                s5p_gpio_get_pin
+                0x0000000043e183e8                gpio_request
+                0x0000000043e183f0                gpio_free
+                0x0000000043e183f8                gpio_direction_input
+                0x0000000043e18414                gpio_direction_output
+                0x0000000043e18438                gpio_get_value
+                0x0000000043e18460                gpio_set_value
+ .text          0x0000000043e18484      0x53c drivers/input/libinput.o
+                0x0000000043e18484                input_queue_ascii
+                0x0000000043e184cc                input_tstc
+                0x0000000043e18514                input_getc
+                0x0000000043e1856c                input_send_keycodes
+                0x0000000043e18844                input_add_table
+                0x0000000043e18884                input_init
+                0x0000000043e1896c                input_stdio_register
+ .text          0x0000000043e189c0     0x2c84 drivers/mmc/libmmc.o
+                0x0000000043e189c8                __board_mmc_getcd
+                0x0000000043e189c8                board_mmc_getcd
+                0x0000000043e189d0                mmc_send_cmd
+                0x0000000043e18a0c                mmc_send_status
+                0x0000000043e18ae4                mmc_set_blocklen
+                0x0000000043e18b18                find_mmc_device
+                0x0000000043e19020                mmc_read_blocks
+                0x0000000043e191a4                mmc_go_idle
+                0x0000000043e191f4                sd_send_op_cond
+                0x0000000043e1933c                mmc_send_op_cond
+                0x0000000043e19484                mmc_send_ext_csd
+                0x0000000043e194d4                mmc_switch
+                0x0000000043e1952c                mmc_change_freq
+                0x0000000043e19624                mmc_switch_part
+                0x0000000043e19660                mmc_getcd
+                0x0000000043e1968c                sd_switch
+                0x0000000043e196f8                sd_change_freq
+                0x0000000043e198d4                mmc_set_ios
+                0x0000000043e198dc                mmc_set_clock
+                0x0000000043e198fc                mmc_set_bus_width
+                0x0000000043e19904                mmc_startup
+                0x0000000043e19f00                mmc_send_if_cond
+                0x0000000043e19f74                mmc_register
+                0x0000000043e19ff8                mmc_init
+                0x0000000043e1a0d4                mmc_get_dev
+                0x0000000043e1a0f8                cpu_mmc_init
+                0x0000000043e1a100                print_mmc_devices
+                0x0000000043e1a168                get_mmc_num
+                0x0000000043e1a178                mmc_initialize
+                0x0000000043e1a214                emmc_boot_partition_size_change
+                0x0000000043e1a2e8                emmc_boot_open
+                0x0000000043e1a358                emmc_boot_close
+                0x0000000043e1a3e8                sdhci_set_ios
+                0x0000000043e1a580                sdhci_init
+                0x0000000043e1a6c8                sdhci_send_command
+                0x0000000043e1aa28                add_sdhci
+                0x0000000043e1abf0                s5p_sdhci_init
+                0x0000000043e1b530                s5p_mshc_init
+ .text          0x0000000043e1b644        0x0 drivers/pcmcia/libpcmcia.o
+ .text          0x0000000043e1b644        0x0 drivers/rtc/librtc.o
+ .text          0x0000000043e1b644      0x24c drivers/serial/libserial.o
+                0x0000000043e1b674                serial_setbrg_dev
+                0x0000000043e1b6ac                s5p_serial0_setbrg
+                0x0000000043e1b6b4                s5p_serial1_setbrg
+                0x0000000043e1b6bc                s5p_serial2_setbrg
+                0x0000000043e1b6c4                s5p_serial3_setbrg
+                0x0000000043e1b6cc                serial_init_dev
+                0x0000000043e1b70c                s5p_serial0_init
+                0x0000000043e1b714                s5p_serial1_init
+                0x0000000043e1b71c                s5p_serial2_init
+                0x0000000043e1b724                s5p_serial3_init
+                0x0000000043e1b72c                serial_getc_dev
+                0x0000000043e1b770                s5p_serial0_getc
+                0x0000000043e1b778                s5p_serial1_getc
+                0x0000000043e1b780                s5p_serial2_getc
+                0x0000000043e1b788                s5p_serial3_getc
+                0x0000000043e1b790                serial_putc_dev
+                0x0000000043e1b7e0                s5p_serial0_putc
+                0x0000000043e1b7e8                s5p_serial1_putc
+                0x0000000043e1b7f0                s5p_serial2_putc
+                0x0000000043e1b7f8                s5p_serial3_putc
+                0x0000000043e1b800                serial_tstc_dev
+                0x0000000043e1b81c                s5p_serial0_tstc
+                0x0000000043e1b824                s5p_serial1_tstc
+                0x0000000043e1b82c                s5p_serial2_tstc
+                0x0000000043e1b834                s5p_serial3_tstc
+                0x0000000043e1b83c                serial_puts_dev
+                0x0000000043e1b864                s5p_serial0_puts
+                0x0000000043e1b86c                s5p_serial1_puts
+                0x0000000043e1b874                s5p_serial2_puts
+                0x0000000043e1b87c                s5p_serial3_puts
+                0x0000000043e1b884                default_serial_console
+ .text          0x0000000043e1b890     0x2410 drivers/usb/gadget/libusb_gadget.o
+                0x0000000043e1be80                EXYNOS_USBD_DETECT_IRQ
+                0x0000000043e1beac                EXYNOS_USBD_CLEAR_IRQ
+                0x0000000043e1beb0                fboot_usb_int_bulkin
+                0x0000000043e1c00c                fboot_usb_handle_ep_in_xfer_complete
+                0x0000000043e1c038                fboot_usb_handle_ep_out_xfer_complete
+                0x0000000043e1c134                fboot_usb_set_descriptors_tlb
+                0x0000000043e1c3a0                fastboot_fifo_size
+                0x0000000043e1c3bc                fastboot_tx_mem
+                0x0000000043e1c3d0                fastboot_getvar
+                0x0000000043e1c3d8                exynoy_usb_phy_on
+                0x0000000043e1c3f0                fboot_usbctl_init
+                0x0000000043e1c3f4                fastboot_init
+                0x0000000043e1c4d4                exynos_usb_handle_setup
+                0x0000000043e1d654                fboot_usb_int_hndlr
+                0x0000000043e1d664                exynos_usb_wait_cable_insert
+                0x0000000043e1d738                exynos_usbc_activate
+                0x0000000043e1d74c                exynos_usb_stop
+                0x0000000043e1d7b4                fastboot_shutdown
+                0x0000000043e1d7d0                exynos_udc_int_hndlr
+                0x0000000043e1d7e0                exynos_usbctl_init
+                0x0000000043e1dbcc                fastboot_poll
+                0x0000000043e1dc20                fastboot_tx_status
+ .text          0x0000000043e1dca0      0xdc0 drivers/usb/host/libusb_host.o
+                0x0000000043e1e1bc                ehci_powerup_fixup
+                0x0000000043e1e1bc                __ehci_powerup_fixup
+                0x0000000043e1e1c4                ehci_submit_root
+                0x0000000043e1e674                usb_lowlevel_stop
+                0x0000000043e1e678                usb_lowlevel_init
+                0x0000000043e1e7dc                submit_bulk_msg
+                0x0000000043e1e804                submit_control_msg
+                0x0000000043e1e858                submit_int_msg
+                0x0000000043e1e864                ehci_hcd_init
+                0x0000000043e1e9f4                ehci_hcd_stop
+ .text          0x0000000043e1ea60     0x16a4 fs/ext4/libext4fs.o
+                0x0000000043e1ea60                get_fs
+                0x0000000043e1eaa8                init_fs
+                0x0000000043e1eb0c                deinit_fs
+                0x0000000043e1eb44                ext4fs_free_node
+                0x0000000043e1eb64                ext4fs_read_file
+                0x0000000043e1edc0                ext4fs_ls
+                0x0000000043e1ee38                ext4fs_read
+                0x0000000043e1ee78                ext4fs_read_inode
+                0x0000000043e1ef80                read_allocated_block
+                0x0000000043e1f754                ext4fs_close
+                0x0000000043e1f830                ext4fs_iterate_dir
+                0x0000000043e1fd14                ext4fs_find_file
+                0x0000000043e1fd8c                ext4fs_open
+                0x0000000043e1fe1c                ext4fs_mount
+                0x0000000043e1fee4                ext4fs_set_blk_dev
+                0x0000000043e1ff38                ext4fs_devread
+ .text          0x0000000043e20104     0x1d38 fs/fat/libfat.o
+                0x0000000043e2085c                fat_register_device
+                0x0000000043e209b0                fat_format_device
+                0x0000000043e20f8c                do_fat_read
+                0x0000000043e21968                file_fat_detectfs
+                0x0000000043e21abc                file_fat_ls
+                0x0000000043e21acc                file_fat_read
+                0x0000000043e21b04                file_getfsname
+                0x0000000043e21b18                file_cd
+                0x0000000043e21cd4                file_detectfs
+                0x0000000043e21d10                file_ls
+                0x0000000043e21da0                file_read
+ .text          0x0000000043e21e3c     0x2098 lib/libfdt/libfdt.o
+                0x0000000043e21e44                fdt_check_header
+                0x0000000043e21ec4                fdt_offset_ptr
+                0x0000000043e21f20                fdt_next_tag
+                0x0000000043e22020                _fdt_check_node_offset
+                0x0000000043e2205c                _fdt_check_prop_offset
+                0x0000000043e22098                fdt_next_node
+                0x0000000043e22150                _fdt_find_string
+                0x0000000043e221ac                fdt_move
+                0x0000000043e222cc                fdt_string
+                0x0000000043e222ec                fdt_get_mem_rsv
+                0x0000000043e22344                fdt_num_mem_rsv
+                0x0000000043e22378                fdt_subnode_offset_namelen
+                0x0000000043e22448                fdt_subnode_offset
+                0x0000000043e22478                fdt_get_name
+                0x0000000043e224e8                fdt_first_property_offset
+                0x0000000043e22508                fdt_next_property_offset
+                0x0000000043e22528                fdt_get_property_by_offset
+                0x0000000043e22580                fdt_get_property_namelen
+                0x0000000043e22624                fdt_get_property
+                0x0000000043e22660                fdt_getprop_namelen
+                0x0000000043e22680                fdt_getprop_by_offset
+                0x0000000043e226cc                fdt_getprop
+                0x0000000043e22708                fdt_get_phandle
+                0x0000000043e22780                fdt_get_alias_namelen
+                0x0000000043e227c8                fdt_path_offset
+                0x0000000043e228b4                fdt_get_alias
+                0x0000000043e228dc                fdt_get_path
+                0x0000000043e22a14                fdt_supernode_atdepth_offset
+                0x0000000043e22acc                fdt_node_depth
+                0x0000000043e22af4                fdt_parent_offset
+                0x0000000043e22b24                fdt_node_offset_by_prop_value
+                0x0000000043e22bc0                fdt_node_offset_by_phandle
+                0x0000000043e22c38                fdt_node_check_compatible
+                0x0000000043e22cc8                fdt_node_offset_by_compatible
+                0x0000000043e2311c                fdt_add_mem_rsv
+                0x0000000043e23190                fdt_del_mem_rsv
+                0x0000000043e231ec                fdt_set_name
+                0x0000000043e23274                fdt_setprop
+                0x0000000043e23430                fdt_delprop
+                0x0000000043e23494                fdt_add_subnode_namelen
+                0x0000000043e23584                fdt_add_subnode
+                0x0000000043e235b4                fdt_del_node
+                0x0000000043e23614                fdt_open_into
+                0x0000000043e237b4                fdt_pack
+                0x0000000043e23810                fdt_strerror
+                0x0000000043e239b0                fdt_create
+                0x0000000043e23a28                fdt_add_reservemap_entry
+                0x0000000043e23ab8                fdt_finish_reservemap
+                0x0000000043e23ad4                fdt_begin_node
+                0x0000000043e23b3c                fdt_end_node
+                0x0000000043e23b7c                fdt_property
+                0x0000000043e23ca4                fdt_finish
+                0x0000000043e23dbc                fdt_setprop_inplace
+                0x0000000043e23e00                fdt_nop_property
+                0x0000000043e23e40                _fdt_node_end_offset
+                0x0000000043e23e84                fdt_nop_node
+ .text          0x0000000043e23ed4     0x2db4 lib/libgeneric.o
+                0x0000000043e23ed4                cyg_crc16
+                0x0000000043e23f18                crc32_no_comp
+                0x0000000043e23ff0                crc32
+                0x0000000043e24004                crc32_wd
+                0x0000000043e24008                crc7
+                0x0000000043e2402c                display_options
+                0x0000000043e2404c                print_size
+                0x0000000043e2417c                print_buffer
+                0x0000000043e242f0                __div64_32
+                0x0000000043e243c0                gzalloc
+                0x0000000043e243d0                gzfree
+                0x0000000043e243d8                zunzip
+                0x0000000043e244ec                gunzip
+                0x0000000043e245b8                hcreate_r
+                0x0000000043e24668                hdestroy_r
+                0x0000000043e246e0                hstrstr_r
+                0x0000000043e2478c                hmatch_r
+                0x0000000043e2482c                hsearch_r
+                0x0000000043e24b00                hdelete_r
+                0x0000000043e24b88                hexport_r
+                0x0000000043e24e20                himport_r
+                0x0000000043e25070                ldiv
+                0x0000000043e25264                lmb_dump_all
+                0x0000000043e25268                lmb_init
+                0x0000000043e25290                lmb_add
+                0x0000000043e25294                lmb_free
+                0x0000000043e25398                lmb_reserve
+                0x0000000043e253a0                lmb_overlaps_region
+                0x0000000043e253f8                __lmb_alloc_base
+                0x0000000043e25500                lmb_alloc_base
+                0x0000000043e25534                lmb_alloc
+                0x0000000043e2553c                lmb_is_reserved
+                0x0000000043e25598                board_lmb_reserve
+                0x0000000043e25598                __board_lmb_reserve
+                0x0000000043e2559c                __arch_lmb_reserve
+                0x0000000043e255a0                string_to_ip
+                0x0000000043e25600                qsort
+                0x0000000043e256dc                strcmp_compar
+                0x0000000043e256e8                strcpy
+                0x0000000043e25700                strncpy
+                0x0000000043e25724                strcat
+                0x0000000043e25754                strncat
+                0x0000000043e257a8                strcmp
+                0x0000000043e257d0                strncmp
+                0x0000000043e2580c                strchr
+                0x0000000043e25838                skip_spaces
+                0x0000000043e25860                strlen
+                0x0000000043e25880                strrchr
+                0x0000000043e258bc                strim
+                0x0000000043e2591c                strnlen
+                0x0000000043e25948                strdup
+                0x0000000043e25988                strspn
+                0x0000000043e259c4                strpbrk
+                0x0000000043e25a00                strtok
+                0x0000000043e25a88                strsep
+                0x0000000043e25ac0                strswab
+                0x0000000043e25b08                memset
+                0x0000000043e25b64                bcopy
+                0x0000000043e25b88                memcpy
+                0x0000000043e25bf4                memmove
+                0x0000000043e25c3c                memcmp
+                0x0000000043e25c6c                memscan
+                0x0000000043e25c98                strstr
+                0x0000000043e25d04                memchr
+                0x0000000043e25d34                strmhz
+                0x0000000043e25d98                udelay
+                0x0000000043e25dc8                mdelay
+                0x0000000043e2690c                simple_strtoul
+                0x0000000043e269c4                strict_strtoul
+                0x0000000043e26a3c                simple_strtol
+                0x0000000043e26a64                ustrtoul
+                0x0000000043e26ad4                simple_strtoull
+                0x0000000043e26bb0                vsprintf
+                0x0000000043e26bb4                sprintf
+                0x0000000043e26bdc                panic
+                0x0000000043e26c20                __assert_fail
+                0x0000000043e26c34                simple_itoa
+ .text          0x0000000043e26c88     0x2500 lib/zlib/libz.o
+                0x0000000043e26c88                zcalloc
+                0x0000000043e26c90                zcfree
+                0x0000000043e26c98                inflate_fast
+                0x0000000043e27228                inflate_table
+                0x0000000043e2776c                inflateReset
+                0x0000000043e277e4                inflateInit2_
+                0x0000000043e278e8                inflateInit_
+                0x0000000043e278fc                inflateEnd
+                0x0000000043e27964                adler32
+                0x0000000043e27c9c                inflate
+ .text          0x0000000043e29188     0x37b4 net/libnet.o
+                0x0000000043e29188                ArpInit
+                0x0000000043e291b4                arp_raw_request
+                0x0000000043e29274                ArpRequest
+                0x0000000043e292f0                ArpTimeoutCheck
+                0x0000000043e29360                ArpReceive
+                0x0000000043e2989c                BootpRequest
+                0x0000000043e29ac8                cpu_eth_init
+                0x0000000043e29b30                eth_parse_enetaddr
+                0x0000000043e29b84                eth_getenv_enetaddr
+                0x0000000043e29be0                eth_setenv_enetaddr
+                0x0000000043e29c14                eth_getenv_enetaddr_by_index
+                0x0000000043e29c64                eth_get_dev
+                0x0000000043e29c74                eth_get_dev_by_name
+                0x0000000043e29cf8                eth_get_dev_by_index
+                0x0000000043e29d38                eth_get_dev_index
+                0x0000000043e29d54                eth_write_hwaddr
+                0x0000000043e29e98                eth_register
+                0x0000000043e29f04                eth_unregister
+                0x0000000043e29f94                eth_initialize
+                0x0000000043e2a150                eth_halt
+                0x0000000043e2a180                eth_send
+                0x0000000043e2a1b8                eth_rx
+                0x0000000043e2a1dc                eth_try_another
+                0x0000000043e2a258                eth_init
+                0x0000000043e2a320                eth_set_current
+                0x0000000043e2a3b4                eth_get_name
+                0x0000000043e2a420                net_auto_load
+                0x0000000043e2a480                NetStartAgain
+                0x0000000043e2a5a4                net_get_udp_handler
+                0x0000000043e2a5b4                net_set_udp_handler
+                0x0000000043e2a5d4                net_get_arp_handler
+                0x0000000043e2a5e4                net_set_arp_handler
+                0x0000000043e2a604                NetSetTimeout
+                0x0000000043e2a638                NetCksum
+                0x0000000043e2a668                NetCksumOk
+                0x0000000043e2a688                NetReceive
+                0x0000000043e2a8dc                NetEthHdrSize
+                0x0000000043e2a914                NetSetEther
+                0x0000000043e2a9a8                net_update_ether
+                0x0000000043e2aa20                net_set_ip_header
+                0x0000000043e2aaa8                net_set_udp_header
+                0x0000000043e2ab30                NetSendUDPPacket
+                0x0000000043e2ac34                copy_filename
+                0x0000000043e2ac78                random_port
+                0x0000000043e2ac90                ip_to_string
+                0x0000000043e2acc8                VLAN_to_string
+                0x0000000043e2ad04                string_to_VLAN
+                0x0000000043e2ad48                getenv_VLAN
+                0x0000000043e2ae00                net_init
+                0x0000000043e2ae6c                NetLoop
+                0x0000000043e2bd44                NfsStart
+                0x0000000043e2bf80                ping_start
+                0x0000000043e2c09c                ping_receive
+                0x0000000043e2c664                TftpStart
+ .text          0x0000000043e2c93c     0x2b20 board/samsung/smdk5422/libsmdk5422.o
+                0x0000000043e2c93c                system_clock_init
+                0x0000000043e2cd3c                DMC_RdCalibration
+                0x0000000043e2ce44                DMC_WrCalibration
+                0x0000000043e2cee0                DMC_CaTraining
+                0x0000000043e2d17c                CA_swap_lpddr3
+                0x0000000043e2d18c                Low_frequency_init_lpddr3
+                0x0000000043e2d458                High_frequency_init_lpddr3
+                0x0000000043e2d810                DMC_InitForLPDDR3
+                0x0000000043e2db40                mem_ctrl_init
+                0x0000000043e2db50                GetRstStat
+                0x0000000043e2dc60                Delay
+                0x0000000043e2dc64                IIC0_SCLH_SDAH
+                0x0000000043e2dc88                IIC0_SCLH_SDAL
+                0x0000000043e2dcac                IIC0_SCLL_SDAH
+                0x0000000043e2dcd0                IIC0_SCLL_SDAL
+                0x0000000043e2dcf4                IIC0_ELow
+                0x0000000043e2dd0c                IIC0_EHigh
+                0x0000000043e2dd24                IIC0_EStart
+                0x0000000043e2dd38                IIC0_EEnd
+                0x0000000043e2dd4c                IIC0_EAck_write
+                0x0000000043e2dda8                IIC0_EAck_read
+                0x0000000043e2de0c                IIC0_ESetport
+                0x0000000043e2de5c                IIC0_EWrite
+                0x0000000043e2defc                IIC0_ERead
+                0x0000000043e2e068                pmic_init
+                0x0000000043e2e1c4                pmic_deinit
+                0x0000000043e2e1d4                IIC2_SCLH_SDAH
+                0x0000000043e2e1f8                IIC2_SCLH_SDAL
+                0x0000000043e2e21c                IIC2_SCLL_SDAH
+                0x0000000043e2e240                IIC2_SCLL_SDAL
+                0x0000000043e2e264                IIC2_ELow
+                0x0000000043e2e27c                IIC2_EHigh
+                0x0000000043e2e294                IIC2_EStart
+                0x0000000043e2e2a8                IIC2_EEnd
+                0x0000000043e2e2bc                IIC2_EAck_write
+                0x0000000043e2e318                IIC2_EAck_read
+                0x0000000043e2e37c                IIC2_ESetport
+                0x0000000043e2e3cc                IIC2_EWrite
+                0x0000000043e2e46c                IIC2_ERead
+                0x0000000043e2e5d8                pmic_init_lm3560
+                0x0000000043e2e600                load_uboot_image
+                0x0000000043e2e65c                coldboot
+                0x0000000043e2e6b4                warmboot
+                0x0000000043e2e6cc                find_second_boot
+                0x0000000043e2e6e0                emmc_endbootop
+                0x0000000043e2e6f4                sdmmc_enumerate
+                0x0000000043e2e708                set_secure_reg
+                0x0000000043e2e784                board_init
+                0x0000000043e2e920                dram_init
+                0x0000000043e2ea2c                dram_init_banksize
+                0x0000000043e2ebc0                board_eth_init
+                0x0000000043e2ebc8                checkboard
+                0x0000000043e2ebe0                board_mmc_init
+                0x0000000043e2ec74                board_early_init_f
+                0x0000000043e2ece4                filecheck
+                0x0000000043e2ed6c                update_image
+                0x0000000043e2edb0                update_raw_image
+                0x0000000043e2ef44                board_late_init
+                0x0000000043e2f1b0                get_board_rev
+                0x0000000043e2f1c4                lowlevel_init
+ .text          0x0000000043e2f45c       0x24 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+                0x0000000043e2f45c                raise
+                0x0000000043e2f478                __aeabi_unwind_cpp_pr0
+                0x0000000043e2f47c                __aeabi_unwind_cpp_pr1
+ .text          0x0000000043e2f480       0x24 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+                0x0000000043e2f480                __udivsi3
+                0x0000000043e2f480                __aeabi_uidiv
+                0x0000000043e2f494                __aeabi_uidivmod
+ .text          0x0000000043e2f4a4       0x2c /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+                0x0000000043e2f4a4                __aeabi_idiv
+                0x0000000043e2f4a4                __divsi3
+                0x0000000043e2f4c0                __aeabi_idivmod
+ .text          0x0000000043e2f4d0       0x18 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+                0x0000000043e2f4d0                __aeabi_llsr
+                0x0000000043e2f4d0                __lshrdi3
+ .text          0x0000000043e2f4e8       0x18 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+                0x0000000043e2f4e8                __ashldi3
+                0x0000000043e2f4e8                __aeabi_llsl
+ .text          0x0000000043e2f500       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+                0x0000000043e2f500                __aeabi_uldivmod
+ .text          0x0000000043e2f530        0xc /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+                0x0000000043e2f530                __aeabi_ldiv0
+                0x0000000043e2f530                __aeabi_idiv0
+ .text          0x0000000043e2f53c       0x90 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+                0x0000000043e2f53c                __gnu_ldivmod_helper
+                0x0000000043e2f580                __gnu_uldivmod_helper
+ .text          0x0000000043e2f5cc      0x340 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+                0x0000000043e2f5cc                __divdi3
+ .text          0x0000000043e2f90c      0x2d0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+                0x0000000043e2f90c                __udivdi3
+
+.glue_7         0x0000000043e2fbdc        0x0
+ .glue_7        0x0000000043e2fbdc        0x0 linker stubs
+
+.glue_7t        0x0000000043e2fbdc        0x0
+ .glue_7t       0x0000000043e2fbdc        0x0 linker stubs
+
+.vfp11_veneer   0x0000000043e2fbdc        0x0
+ .vfp11_veneer  0x0000000043e2fbdc        0x0 linker stubs
+
+.v4_bx          0x0000000043e2fbdc        0x0
+ .v4_bx         0x0000000043e2fbdc        0x0 linker stubs
+
+.iplt           0x0000000043e2fbdc        0x0
+ .iplt          0x0000000043e2fbdc        0x0 arch/arm/cpu/armv7/start.o
+
+.text.unlikely  0x0000000043e2fbdc      0x1e8
+ .text.unlikely
+                0x0000000043e2fbdc      0x1e8 common/libcommon.o
+                0x0000000043e2fdc4                . = ALIGN (0x4)
+
+.rodata         0x0000000043e2fdc4     0xbc15
+ *(SORT(.rodata*))
+ .rodata        0x0000000043e2fdc4       0x80 arch/arm/lib/libarm.o
+ .rodata        0x0000000043e2fe44      0xa6c common/libcommon.o
+                0x0000000043e2ff14                version_string
+                0x0000000043e2ff61                default_environment
+ .rodata        0x0000000043e308b0       0x18 disk/libdisk.o
+ .rodata        0x0000000043e308c8       0x60 drivers/mmc/libmmc.o
+ .rodata        0x0000000043e30928       0x18 fs/fat/libfat.o
+ .rodata        0x0000000043e30940       0x34 lib/libfdt/libfdt.o
+ .rodata        0x0000000043e30974      0x827 lib/libgeneric.o
+                0x0000000043e30f74                crc7_syndrome_table
+                0x0000000043e31074                _ctype
+                0x0000000043e3118a                hex_asc
+ *fill*         0x0000000043e3119b        0x1 
+ .rodata        0x0000000043e3119c      0x9cc lib/zlib/libz.o
+                0x0000000043e31b40                z_errmsg
+ .rodata        0x0000000043e31b68       0x70 drivers/input/libinput.o
+ .rodata        0x0000000043e31bd8      0x1bb drivers/usb/gadget/libusb_gadget.o
+                0x0000000043e31c13                fboot_string_desc2
+                0x0000000043e31c2b                fboot_string_desc1
+                0x0000000043e31c43                dnw_string_desc2
+                0x0000000043e31c6f                dnw_string_desc1
+                0x0000000043e31ca9                string_desc0
+                0x0000000043e31cad                qualifier_desc
+                0x0000000043e31cb7                config_high
+                0x0000000043e31cc0                config_high_total
+                0x0000000043e31ce0                config_full
+                0x0000000043e31ce9                config_full_total
+                0x0000000043e31d6d                fboot_qualifier_desc
+                0x0000000043e31d77                fboot_string_desc3
+ .rodata        0x0000000043e31d93       0x3f drivers/usb/host/libusb_host.o
+ .rodata        0x0000000043e31dd2       0x28 fs/ext4/libext4fs.o
+ .rodata        0x0000000043e31dfa       0x22 net/libnet.o
+ .rodata.str1.1
+                0x0000000043e31e1c       0x58 arch/arm/cpu/armv7/exynos/libexynos.o
+                                         0x5c (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e31e74       0x8b arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .rodata.str1.1
+                0x0000000043e31eff      0x383 arch/arm/lib/libarm.o
+                                        0x3af (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e32282     0x76a3 common/libcommon.o
+                                       0x7d85 (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e39925      0x2b5 disk/libdisk.o
+                                        0x2df (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e39bda        0x6 drivers/input/libinput.o
+ .rodata.str1.1
+                0x0000000043e39bda      0x638 drivers/mmc/libmmc.o
+                                        0x64c (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3a212      0x163 drivers/usb/gadget/libusb_gadget.o
+ .rodata.str1.1
+                0x0000000043e3a375      0x147 drivers/usb/host/libusb_host.o
+                                        0x14f (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3a4bc      0x38a fs/ext4/libext4fs.o
+ .rodata.str1.1
+                0x0000000043e3a846      0x3e3 fs/fat/libfat.o
+                                        0x414 (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3ac29       0xfc lib/libfdt/libfdt.o
+                                        0x11b (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3ad25      0x17d lib/libgeneric.o
+                                        0x18f (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3aea2      0x21c lib/zlib/libz.o
+                                        0x21d (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3b0be      0x6b6 net/libnet.o
+                                        0x82c (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3b774      0x24a board/samsung/smdk5422/libsmdk5422.o
+                                        0x2c7 (size before relaxing)
+ .rodata.str1.1
+                0x0000000043e3b9be       0x1b /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+
+.hash           0x0000000043e3b9dc       0x48
+ .hash          0x0000000043e3b9dc       0x48 arch/arm/cpu/armv7/start.o
+
+.ARM.extab      0x0000000043e3ba24        0x0
+ .ARM.extab     0x0000000043e3ba24        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .ARM.extab     0x0000000043e3ba24        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.ARM.exidx      0x0000000043e3ba24        0x8
+ .ARM.exidx     0x0000000043e3ba24        0x8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .ARM.exidx     0x0000000043e3ba2c        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+                                          0x8 (size before relaxing)
+                0x0000000043e3ba2c                . = ALIGN (0x4)
+
+.data           0x0000000043e3ba30      0xc40
+ *(.data)
+ .data          0x0000000043e3ba30        0x0 arch/arm/cpu/armv7/start.o
+ .data          0x0000000043e3ba30        0x0 arch/arm/cpu/armv7/exynos/libexynos.o
+ .data          0x0000000043e3ba30        0x0 arch/arm/cpu/armv7/libarmv7.o
+ .data          0x0000000043e3ba30        0x8 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+                0x0000000043e3ba30                s5p_cpu_id
+                0x0000000043e3ba34                s5p_cpu_rev
+ .data          0x0000000043e3ba38       0x30 arch/arm/lib/libarm.o
+                0x0000000043e3ba38                init_sequence
+ .data          0x0000000043e3ba68      0x6b4 common/libcommon.o
+                0x0000000043e3bc54                load_addr
+                0x0000000043e3c070                env_name_spec
+                0x0000000043e3c110                stdio_names
+ .data          0x0000000043e3c11c        0x0 disk/libdisk.o
+ .data          0x0000000043e3c11c        0x0 drivers/gpio/libgpio.o
+ .data          0x0000000043e3c11c       0xc6 drivers/input/libinput.o
+ *fill*         0x0000000043e3c1e2        0x2 
+ .data          0x0000000043e3c1e4        0x4 drivers/mmc/libmmc.o
+ .data          0x0000000043e3c1e8        0x0 drivers/pcmcia/libpcmcia.o
+ .data          0x0000000043e3c1e8        0x0 drivers/rtc/librtc.o
+ .data          0x0000000043e3c1e8       0xc0 drivers/serial/libserial.o
+                0x0000000043e3c1e8                s5p_serial2_device
+                0x0000000043e3c218                s5p_serial3_device
+                0x0000000043e3c248                s5p_serial1_device
+                0x0000000043e3c278                s5p_serial0_device
+ .data          0x0000000043e3c2a8      0x158 drivers/usb/gadget/libusb_gadget.o
+                0x0000000043e3c2a8                ptable_default_size
+                0x0000000043e3c2b0                ptable_default
+                0x0000000043e3c3c8                test_pkt
+ .data          0x0000000043e3c400       0x36 drivers/usb/host/libusb_host.o
+ *fill*         0x0000000043e3c436        0x2 
+ .data          0x0000000043e3c438        0xc fs/ext4/libext4fs.o
+                0x0000000043e3c438                ext4fs_indir1_blkno
+                0x0000000043e3c43c                ext4fs_indir2_blkno
+                0x0000000043e3c440                ext4fs_indir3_blkno
+ .data          0x0000000043e3c444      0x204 fs/fat/libfat.o
+                0x0000000043e3c444                file_cwd
+ .data          0x0000000043e3c648        0x0 lib/libfdt/libfdt.o
+ .data          0x0000000043e3c648        0x0 lib/libgeneric.o
+ .data          0x0000000043e3c648        0x0 lib/zlib/libz.o
+ .data          0x0000000043e3c648       0x28 net/libnet.o
+                0x0000000043e3c648                NetOurVLAN
+                0x0000000043e3c64a                NetOurNativeVLAN
+                0x0000000043e3c64c                NetBcastAddr
+                0x0000000043e3c668                TftpRRQTimeoutCountMax
+                0x0000000043e3c66c                TftpRRQTimeoutMSecs
+ .data          0x0000000043e3c670        0x0 board/samsung/smdk5422/libsmdk5422.o
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .data          0x0000000043e3c670        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.got            0x0000000043e3c670        0x0
+ .got           0x0000000043e3c670        0x0 arch/arm/cpu/armv7/start.o
+
+.got.plt        0x0000000043e3c670        0xc
+ .got.plt       0x0000000043e3c670        0xc arch/arm/cpu/armv7/start.o
+                0x0000000043e3c670                _GLOBAL_OFFSET_TABLE_
+
+.igot.plt       0x0000000043e3c67c        0x0
+ .igot.plt      0x0000000043e3c67c        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000043e3c67c                . = ALIGN (0x4)
+                0x0000000043e3c67c                . = .
+                0x0000000043e3c67c                __u_boot_cmd_start = .
+
+.u_boot_cmd     0x0000000043e3c67c      0x648
+ *(.u_boot_cmd)
+ .u_boot_cmd    0x0000000043e3c67c      0x648 common/libcommon.o
+                0x0000000043e3c67c                __u_boot_cmd_bdinfo
+                0x0000000043e3c694                __u_boot_cmd_reset
+                0x0000000043e3c6ac                __u_boot_cmd_go
+                0x0000000043e3c6c4                __u_boot_cmd_bootz
+                0x0000000043e3c6dc                __u_boot_cmd_iminfo
+                0x0000000043e3c6f4                __u_boot_cmd_bootd
+                0x0000000043e3c70c                __u_boot_cmd_boot
+                0x0000000043e3c724                __u_boot_cmd_bootm
+                0x0000000043e3c73c                __u_boot_cmd_coninfo
+                0x0000000043e3c754                __u_boot_cmd_echo
+                0x0000000043e3c76c                __u_boot_cmd_bootvx
+                0x0000000043e3c784                __u_boot_cmd_bootelf
+                0x0000000043e3c79c                __u_boot_cmd_exit
+                0x0000000043e3c7b4                __u_boot_cmd_ext2load
+                0x0000000043e3c7cc                __u_boot_cmd_ext2ls
+                0x0000000043e3c7e4                __u_boot_cmd_fastboot
+                0x0000000043e3c7fc                __u_boot_cmd_cfgload
+                0x0000000043e3c814                __u_boot_cmd_fatformat
+                0x0000000043e3c82c                __u_boot_cmd_fatinfo
+                0x0000000043e3c844                __u_boot_cmd_fatls
+                0x0000000043e3c85c                __u_boot_cmd_fatload
+                0x0000000043e3c874                __u_boot_cmd_fdt
+                0x0000000043e3c88c                __u_boot_cmd_protect
+                0x0000000043e3c8a4                __u_boot_cmd_erase
+                0x0000000043e3c8bc                __u_boot_cmd_flinfo
+                0x0000000043e3c8d4                __u_boot_cmd_question_mark
+                0x0000000043e3c8ec                __u_boot_cmd_help
+                0x0000000043e3c904                __u_boot_cmd_itest
+                0x0000000043e3c91c                __u_boot_cmd_loady
+                0x0000000043e3c934                __u_boot_cmd_loadb
+                0x0000000043e3c94c                __u_boot_cmd_loads
+                0x0000000043e3c964                __u_boot_cmd_mtest
+                0x0000000043e3c97c                __u_boot_cmd_loop
+                0x0000000043e3c994                __u_boot_cmd_base
+                0x0000000043e3c9ac                __u_boot_cmd_crc32
+                0x0000000043e3c9c4                __u_boot_cmd_cmp
+                0x0000000043e3c9dc                __u_boot_cmd_cp
+                0x0000000043e3c9f4                __u_boot_cmd_mw
+                0x0000000043e3ca0c                __u_boot_cmd_nm
+                0x0000000043e3ca24                __u_boot_cmd_mm
+                0x0000000043e3ca3c                __u_boot_cmd_md
+                0x0000000043e3ca54                __u_boot_cmd_sleep
+                0x0000000043e3ca6c                __u_boot_cmd_emmc
+                0x0000000043e3ca84                __u_boot_cmd_mmc
+                0x0000000043e3ca9c                __u_boot_cmd_mmcinfo
+                0x0000000043e3cab4                __u_boot_cmd_fdisk
+                0x0000000043e3cacc                __u_boot_cmd_movi
+                0x0000000043e3cae4                __u_boot_cmd_ping
+                0x0000000043e3cafc                __u_boot_cmd_nfs
+                0x0000000043e3cb14                __u_boot_cmd_tftpboot
+                0x0000000043e3cb2c                __u_boot_cmd_bootp
+                0x0000000043e3cb44                __u_boot_cmd_run
+                0x0000000043e3cb5c                __u_boot_cmd_setenv
+                0x0000000043e3cb74                __u_boot_cmd_printenv
+                0x0000000043e3cb8c                __u_boot_cmd_editenv
+                0x0000000043e3cba4                __u_boot_cmd_env
+                0x0000000043e3cbbc                __u_boot_cmd_saveenv
+                0x0000000043e3cbd4                __u_boot_cmd_source
+                0x0000000043e3cbec                __u_boot_cmd_true
+                0x0000000043e3cc04                __u_boot_cmd_false
+                0x0000000043e3cc1c                __u_boot_cmd_test
+                0x0000000043e3cc34                __u_boot_cmd_usbboot
+                0x0000000043e3cc4c                __u_boot_cmd_usb
+                0x0000000043e3cc64                __u_boot_cmd_dnw
+                0x0000000043e3cc7c                __u_boot_cmd_version
+                0x0000000043e3cc94                __u_boot_cmd_imxtract
+                0x0000000043e3ccac                __u_boot_cmd_showvar
+                0x0000000043e3ccc4                __u_boot_cmd_end = .
+                0x0000000043e3ccc4                . = ALIGN (0x4)
+                0x0000000043e3ccc4                __image_copy_end = .
+
+.rel.dyn        0x0000000043e3ccc4     0x6518
+                0x0000000043e3ccc4                __rel_dyn_start = .
+ *(.rel*)
+ .rel.got       0x0000000043e3ccc4        0x0 arch/arm/cpu/armv7/start.o
+ .rel.plt       0x0000000043e3ccc4        0x0 arch/arm/cpu/armv7/start.o
+ .rel.iplt      0x0000000043e3ccc4        0x0 arch/arm/cpu/armv7/start.o
+ .rel.text      0x0000000043e3ccc4     0x4b30 arch/arm/cpu/armv7/start.o
+ .rel.rodata    0x0000000043e417f4      0x5d8 arch/arm/cpu/armv7/start.o
+ .rel.data      0x0000000043e41dcc      0xba8 arch/arm/cpu/armv7/start.o
+ .rel.text.unlikely
+                0x0000000043e42974       0x18 arch/arm/cpu/armv7/start.o
+ .rel.u_boot_cmd
+                0x0000000043e4298c      0x850 arch/arm/cpu/armv7/start.o
+                0x0000000043e431dc                __rel_dyn_end = .
+
+.dynsym         0x0000000043e431dc       0xd0
+                0x0000000043e431dc                __dynsym_start = .
+ *(.dynsym)
+ .dynsym        0x0000000043e431dc       0xd0 arch/arm/cpu/armv7/start.o
+                0x0000000043e432ac                _end = .
+                0x0000000043e44000                . = ALIGN (0x1000)
+
+.mmutable
+ *(.mmutable)
+
+.bss            0x0000000043e3ccc4   0x142d1c
+                0x0000000043e3ccc4                __bss_start = .
+ *(.bss)
+ .bss           0x0000000043e3ccc4        0x0 arch/arm/cpu/armv7/start.o
+ .bss           0x0000000043e3ccc4      0x1fc arch/arm/cpu/armv7/exynos/libexynos.o
+                0x0000000043e3ccc4                raw_area_control
+ .bss           0x0000000043e3cec0        0x0 arch/arm/cpu/armv7/libarmv7.o
+ .bss           0x0000000043e3cec0        0x0 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .bss           0x0000000043e3cec0        0x8 arch/arm/lib/libarm.o
+                0x0000000043e3cec0                monitor_flash_len
+ *fill*         0x0000000043e3cec8       0x38 
+ .bss           0x0000000043e3cf00     0xf0bc common/libcommon.o
+                0x0000000043e3cf00                images
+                0x0000000043e3d2cc                GLOBAL_SYSTEM_PART
+                0x0000000043e3d2d0                working_fdt
+                0x0000000043e3d6e0                his_pad_count
+                0x0000000043e3d6e4                his_pad_char
+                0x0000000043e3d6fd                his_eol
+                0x0000000043e3d704                os_data_init
+                0x0000000043e3d714                os_data_char
+                0x0000000043e3d718                his_quote
+                0x0000000043e3d71c                send_ptr
+                0x0000000043e3d720                send_parms
+                0x0000000043e3d748                save_size
+                0x0000000043e3d74c                save_addr
+                0x0000000043e3d758                mem_malloc_brk
+                0x0000000043e3d75c                mem_malloc_start
+                0x0000000043e3d760                mem_malloc_end
+                0x0000000043e3d79c                env_htab
+                0x0000000043e3d7a8                env_ptr
+                0x0000000043e3d9e0                last_return_code
+                0x0000000043e3dae8                nesting_level
+                0x0000000043e3daf8                hist_num
+                0x0000000043e3dafc                hist_list
+                0x0000000043e3db4c                hist_lines
+                0x0000000043e40360                console_buffer
+                0x0000000043e405a8                stdio_devices
+                0x0000000043e405c0                usb_started
+ .bss           0x0000000043e4bfbc        0x0 disk/libdisk.o
+ .bss           0x0000000043e4bfbc        0x0 drivers/gpio/libgpio.o
+ .bss           0x0000000043e4bfbc        0x0 drivers/input/libinput.o
+ *fill*         0x0000000043e4bfbc        0x4 
+ .bss           0x0000000043e4bfc0   0x100610 drivers/mmc/libmmc.o
+                0x0000000043e4bfc8                aligned_buffer
+                0x0000000043f4bfd0                mshc_channel
+                0x0000000043f4c490                mshc_host
+ .bss           0x0000000043f4c5d0        0x0 drivers/pcmcia/libpcmcia.o
+ .bss           0x0000000043f4c5d0        0x0 drivers/rtc/librtc.o
+ .bss           0x0000000043f4c5d0        0x0 drivers/serial/libserial.o
+ .bss           0x0000000043f4c5d0      0x22c drivers/usb/gadget/libusb_gadget.o
+                0x0000000043f4c5d0                oUsbDev3
+                0x0000000043f4c75c                g_uCntOfBulkInTrb
+                0x0000000043f4c760                g_pBulkInTrb
+                0x0000000043f4c764                fboot_response_flag
+                0x0000000043f4c768                g_pBulkOutTrb0
+                0x0000000043f4c76c                g_ucTempDownBuf
+                0x0000000043f4c79c                reply_msg
+                0x0000000043f4c7a0                g_usConfig
+                0x0000000043f4c7a2                g_bIsBulkOutXferDone
+                0x0000000043f4c7a3                g_bIsBulkInXferDone
+                0x0000000043f4c7a4                is_fastboot
+                0x0000000043f4c7a8                oStatusGet
+                0x0000000043f4c7ad                oInterfaceGet
+                0x0000000043f4c7ae                set_sel
+                0x0000000043f4c7b4                g_uCntOfDescOutComplete
+                0x0000000043f4c7b8                g_pBulkInTrbArray_Base
+                0x0000000043f4c7bc                exynos_receive_done
+                0x0000000043f4c7c0                exynos_usbd_dn_addr
+                0x0000000043f4c7c4                g_uCntOfBulkOutTrb
+                0x0000000043f4c7c8                g_pBulkOutTrbArray_Base
+                0x0000000043f4c7cc                transfer_size
+                0x0000000043f4c7d0                exynos_got_header
+                0x0000000043f4c7d4                DNW
+                0x0000000043f4c7d8                exynos_usbd_dn_cnt
+                0x0000000043f4c7dc                bCalled_SetEndPoint
+                0x0000000043f4c7e0                g_uUsbDevBulkOutBufferPtr
+                0x0000000043f4c7e4                g_uUsbDevBulkOutTmpBufferPtr
+                0x0000000043f4c7e8                g_uUsbDevCtrlOutBufferPtr
+                0x0000000043f4c7ec                g_uUsbDevCtrlInBufferPtr
+                0x0000000043f4c7f0                g_uUsbDownAddr
+                0x0000000043f4c7f4                g_bUsingUsbDownAddr
+                0x0000000043f4c7f5                g_bSuspendResumeDBG_USBD3
+                0x0000000043f4c7f6                g_bTransferEp0
+                0x0000000043f4c7f8                g_usUploadPktLength
+ *fill*         0x0000000043f4c7fc        0x4 
+ .bss           0x0000000043f4c800       0xc0 drivers/usb/host/libusb_host.o
+                0x0000000043f4c880                hcor
+                0x0000000043f4c884                rootdev
+                0x0000000043f4c88c                hccr
+ .bss           0x0000000043f4c8c0       0x80 fs/ext4/libext4fs.o
+                0x0000000043f4c8c0                ext4_dev_desc
+                0x0000000043f4c8c4                ext4fs_symlinknest
+                0x0000000043f4c8c8                ext4fs_root
+                0x0000000043f4c8cc                ext4fs_indir1_block
+                0x0000000043f4c8d0                ext4fs_indir1_size
+                0x0000000043f4c8d4                ext4fs_indir2_block
+                0x0000000043f4c8d8                ext4fs_indir2_size
+                0x0000000043f4c8dc                ext4fs_indir3_block
+                0x0000000043f4c8e0                ext4fs_indir3_size
+                0x0000000043f4c8e4                ext4fs_file
+                0x0000000043f4c8ec                g_parent_inode
+ .bss           0x0000000043f4c940    0x300c0 fs/fat/libfat.o
+                0x0000000043f4c9c0                get_vfatname_block
+                0x0000000043f5ca00                do_fat_read_block
+                0x0000000043f6ca00                get_dentfromdir_block
+ .bss           0x0000000043f7ca00        0x0 lib/libfdt/libfdt.o
+ .bss           0x0000000043f7ca00       0x1e lib/libgeneric.o
+                0x0000000043f7ca00                errno
+                0x0000000043f7ca04                ___strtok
+ .bss           0x0000000043f7ca1e        0x0 lib/zlib/libz.o
+ *fill*         0x0000000043f7ca1e        0x2 
+ .bss           0x0000000043f7ca20     0x2fa4 net/libnet.o
+                0x0000000043f7ca20                NetArpWaitPacketMAC
+                0x0000000043f7ca24                NetArpWaitPacketIP
+                0x0000000043f7ca28                NetArpWaitReplyIP
+                0x0000000043f7ca2c                NetArpWaitTxPacketSize
+                0x0000000043f7ca30                NetArpTxPacket
+                0x0000000043f7ca34                NetArpPacketBuf
+                0x0000000043f7d074                NetArpWaitTimerStart
+                0x0000000043f7d078                NetArpWaitTry
+                0x0000000043f7d07c                BootpID
+                0x0000000043f7d080                BootpTry
+                0x0000000043f7d09c                net_state
+                0x0000000043f7d0b4                NetRestartWrap
+                0x0000000043f7d0c4                NetRxPacket
+                0x0000000043f7d0c8                NetRxPacketLen
+                0x0000000043f7d0cc                NetOurIP
+                0x0000000043f7d0d0                NetOurEther
+                0x0000000043f7d0d8                NetIPID
+                0x0000000043f7d0dc                NetTxPacket
+                0x0000000043f7d0e0                NetEtherNullAddr
+                0x0000000043f7d0ec                NetOurGatewayIP
+                0x0000000043f7d0f0                NetOurSubnetMask
+                0x0000000043f7d0f4                NetServerIP
+                0x0000000043f7d0f8                PktBuf
+                0x0000000043f7ef38                NetRxPackets
+                0x0000000043f7ef48                NetBootFileXferSize
+                0x0000000043f7ef4c                BootFile
+                0x0000000043f7efcc                NetServerEther
+                0x0000000043f7efd2                NetBootFileSize
+                0x0000000043f7efd4                NetOurRootPath
+                0x0000000043f7f014                NetOurHostName
+                0x0000000043f7f034                NetOurNISDomain
+                0x0000000043f7f054                NetOurDNSIP
+                0x0000000043f7f908                NetPingIP
+ .bss           0x0000000043f7f9c4       0x1c board/samsung/smdk5422/libsmdk5422.o
+                0x0000000043f7f9c4                gEvtNum
+                0x0000000043f7f9c8                g_nMEMCLK
+                0x0000000043f7f9cc                dram_pad_con
+                0x0000000043f7f9d0                dram_pad_stat
+                0x0000000043f7f9d4                crl_dfdqs
+                0x0000000043f7f9d8                nr_dram_banks
+                0x0000000043f7f9dc                pmic
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .bss           0x0000000043f7f9e0        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+                0x0000000043f7f9e0                . = ALIGN (0x4)
+                0x0000000043f7f9e0                __bss_end__ = .
+
+.dynbss         0x0000000043e44000        0x0 load address 0x0000000043f7f9e0
+ .dynbss        0x0000000043e44000        0x0 arch/arm/cpu/armv7/start.o
+
+/DISCARD/
+ *(.dynstr*)
+ *(.dynamic*)
+ *(.plt*)
+ *(.interp*)
+ *(.gnu*)
+Address of section .text set to 0x43e00000
+LOAD arch/arm/cpu/armv7/start.o
+START GROUP
+LOAD api/libapi.o
+LOAD arch/arm/cpu/armv7/exynos/libexynos.o
+LOAD arch/arm/cpu/armv7/libarmv7.o
+LOAD arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+LOAD arch/arm/lib/libarm.o
+LOAD common/libcommon.o
+LOAD disk/libdisk.o
+LOAD drivers/bios_emulator/libatibiosemu.o
+LOAD drivers/block/libblock.o
+LOAD drivers/dma/libdma.o
+LOAD drivers/fpga/libfpga.o
+LOAD drivers/gpio/libgpio.o
+LOAD drivers/hwmon/libhwmon.o
+LOAD drivers/i2c/libi2c.o
+LOAD drivers/input/libinput.o
+LOAD drivers/misc/libmisc.o
+LOAD drivers/mmc/libmmc.o
+LOAD drivers/mtd/libmtd.o
+LOAD drivers/mtd/nand/libnand.o
+LOAD drivers/mtd/onenand/libonenand.o
+LOAD drivers/mtd/spi/libspi_flash.o
+LOAD drivers/mtd/ubi/libubi.o
+LOAD drivers/net/libnet.o
+LOAD drivers/net/phy/libphy.o
+LOAD drivers/pci/libpci.o
+LOAD drivers/pcmcia/libpcmcia.o
+LOAD drivers/power/libpower.o
+LOAD drivers/rtc/librtc.o
+LOAD drivers/serial/libserial.o
+LOAD drivers/spi/libspi.o
+LOAD drivers/twserial/libtws.o
+LOAD drivers/usb/eth/libusb_eth.o
+LOAD drivers/usb/gadget/libusb_gadget.o
+LOAD drivers/usb/host/libusb_host.o
+LOAD drivers/usb/musb/libusb_musb.o
+LOAD drivers/usb/phy/libusb_phy.o
+LOAD drivers/usb/ulpi/libusb_ulpi.o
+LOAD drivers/video/libvideo.o
+LOAD drivers/watchdog/libwatchdog.o
+LOAD fs/cramfs/libcramfs.o
+LOAD fs/ext4/libext4fs.o
+LOAD fs/fat/libfat.o
+LOAD fs/fdos/libfdos.o
+LOAD fs/jffs2/libjffs2.o
+LOAD fs/reiserfs/libreiserfs.o
+LOAD fs/ubifs/libubifs.o
+LOAD fs/yaffs2/libyaffs2.o
+LOAD fs/zfs/libzfs.o
+LOAD lib/libfdt/libfdt.o
+LOAD lib/libgeneric.o
+LOAD lib/lzma/liblzma.o
+LOAD lib/lzo/liblzo.o
+LOAD lib/zlib/libz.o
+LOAD net/libnet.o
+LOAD post/libpost.o
+LOAD board/samsung/smdk5422/libsmdk5422.o
+END GROUP
+LOAD /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+LOAD /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a
+OUTPUT(u-boot elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x39
+ .ARM.attributes
+                0x0000000000000000       0x1f arch/arm/cpu/armv7/start.o
+ .ARM.attributes
+                0x000000000000001f       0x33 arch/arm/cpu/armv7/exynos/libexynos.o
+ .ARM.attributes
+                0x0000000000000052       0x33 arch/arm/cpu/armv7/libarmv7.o
+ .ARM.attributes
+                0x0000000000000085       0x33 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .ARM.attributes
+                0x00000000000000b8       0x33 arch/arm/lib/libarm.o
+ .ARM.attributes
+                0x00000000000000eb       0x33 common/libcommon.o
+ .ARM.attributes
+                0x000000000000011e       0x33 disk/libdisk.o
+ .ARM.attributes
+                0x0000000000000151       0x33 drivers/gpio/libgpio.o
+ .ARM.attributes
+                0x0000000000000184       0x33 drivers/input/libinput.o
+ .ARM.attributes
+                0x00000000000001b7       0x33 drivers/mmc/libmmc.o
+ .ARM.attributes
+                0x00000000000001ea       0x33 drivers/pcmcia/libpcmcia.o
+ .ARM.attributes
+                0x000000000000021d       0x33 drivers/rtc/librtc.o
+ .ARM.attributes
+                0x0000000000000250       0x33 drivers/serial/libserial.o
+ .ARM.attributes
+                0x0000000000000283       0x33 drivers/usb/gadget/libusb_gadget.o
+ .ARM.attributes
+                0x00000000000002b6       0x33 drivers/usb/host/libusb_host.o
+ .ARM.attributes
+                0x00000000000002e9       0x33 fs/ext4/libext4fs.o
+ .ARM.attributes
+                0x000000000000031c       0x33 fs/fat/libfat.o
+ .ARM.attributes
+                0x000000000000034f       0x33 lib/libfdt/libfdt.o
+ .ARM.attributes
+                0x0000000000000382       0x33 lib/libgeneric.o
+ .ARM.attributes
+                0x00000000000003b5       0x33 lib/zlib/libz.o
+ .ARM.attributes
+                0x00000000000003e8       0x33 net/libnet.o
+ .ARM.attributes
+                0x000000000000041b       0x33 board/samsung/smdk5422/libsmdk5422.o
+ .ARM.attributes
+                0x000000000000044e       0x33 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x0000000000000481       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000000000004b1       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x00000000000004e1       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .ARM.attributes
+                0x0000000000000511       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .ARM.attributes
+                0x0000000000000541       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x0000000000000571       0x30 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .ARM.attributes
+                0x00000000000005a1       0x44 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .ARM.attributes
+                0x00000000000005e5       0x44 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x0000000000000629       0x44 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.comment        0x0000000000000000       0x5e
+ .comment       0x0000000000000000       0x2c arch/arm/cpu/armv7/exynos/libexynos.o
+                                        0x10e (size before relaxing)
+ .comment       0x000000000000002c       0x87 arch/arm/cpu/armv7/libarmv7.o
+ .comment       0x000000000000002c       0xe1 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .comment       0x000000000000002c      0x10e arch/arm/lib/libarm.o
+ .comment       0x000000000000002c       0x32 common/libcommon.o
+                                        0x8d0 (size before relaxing)
+ .comment       0x000000000000005e       0x5a disk/libdisk.o
+ .comment       0x000000000000005e       0x2d drivers/gpio/libgpio.o
+ .comment       0x000000000000005e       0x2d drivers/input/libinput.o
+ .comment       0x000000000000005e       0xb4 drivers/mmc/libmmc.o
+ .comment       0x000000000000005e       0x5a drivers/pcmcia/libpcmcia.o
+ .comment       0x000000000000005e       0x2d drivers/rtc/librtc.o
+ .comment       0x000000000000005e       0x2d drivers/serial/libserial.o
+ .comment       0x000000000000005e       0x2d drivers/usb/gadget/libusb_gadget.o
+ .comment       0x000000000000005e       0x5a drivers/usb/host/libusb_host.o
+ .comment       0x000000000000005e       0x87 fs/ext4/libext4fs.o
+ .comment       0x000000000000005e       0x5a fs/fat/libfat.o
+ .comment       0x000000000000005e      0x10e lib/libfdt/libfdt.o
+ .comment       0x000000000000005e      0x2fd lib/libgeneric.o
+ .comment       0x000000000000005e       0x2d lib/zlib/libz.o
+ .comment       0x000000000000005e      0x13b net/libnet.o
+ .comment       0x000000000000005e      0x13b board/samsung/smdk5422/libsmdk5422.o
+ .comment       0x000000000000005e       0x2d /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .comment       0x000000000000005e       0x33 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .comment       0x000000000000005e       0x33 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .comment       0x000000000000005e       0x33 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/armv7/exynos/libexynos.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/armv7/libarmv7.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/libarm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 common/libcommon.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 disk/libdisk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/gpio/libgpio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/input/libinput.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/mmc/libmmc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/pcmcia/libpcmcia.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/rtc/librtc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/serial/libserial.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/usb/gadget/libusb_gadget.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/usb/host/libusb_host.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/ext4/libext4fs.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/fat/libfat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/libfdt/libfdt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/libgeneric.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 lib/zlib/libz.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 net/libnet.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 board/samsung/smdk5422/libsmdk5422.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_line     0x0000000000000000    0x1998a
+ .debug_line    0x0000000000000000       0xeb arch/arm/cpu/armv7/start.o
+ .debug_line    0x00000000000000eb      0xcc5 arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_line    0x0000000000000db0      0x498 arch/arm/cpu/armv7/libarmv7.o
+ .debug_line    0x0000000000001248      0x979 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_line    0x0000000000001bc1      0xeb6 arch/arm/lib/libarm.o
+ .debug_line    0x0000000000002a77     0xa9c8 common/libcommon.o
+ .debug_line    0x000000000000d43f      0x5db disk/libdisk.o
+ .debug_line    0x000000000000da1a      0x1f5 drivers/gpio/libgpio.o
+ .debug_line    0x000000000000dc0f      0x358 drivers/input/libinput.o
+ .debug_line    0x000000000000df67     0x14a8 drivers/mmc/libmmc.o
+ .debug_line    0x000000000000f40f      0x1d8 drivers/pcmcia/libpcmcia.o
+ .debug_line    0x000000000000f5e7       0xec drivers/rtc/librtc.o
+ .debug_line    0x000000000000f6d3      0x2e8 drivers/serial/libserial.o
+ .debug_line    0x000000000000f9bb      0xb7c drivers/usb/gadget/libusb_gadget.o
+ .debug_line    0x0000000000010537      0x731 drivers/usb/host/libusb_host.o
+ .debug_line    0x0000000000010c68      0xa53 fs/ext4/libext4fs.o
+ .debug_line    0x00000000000116bb      0x9c1 fs/fat/libfat.o
+ .debug_line    0x000000000001207c     0x1443 lib/libfdt/libfdt.o
+ .debug_line    0x00000000000134bf     0x250a lib/libgeneric.o
+ .debug_line    0x00000000000159c9      0xb22 lib/zlib/libz.o
+ .debug_line    0x00000000000164eb     0x1d37 net/libnet.o
+ .debug_line    0x0000000000018222     0x1215 board/samsung/smdk5422/libsmdk5422.o
+ .debug_line    0x0000000000019437      0x11e /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_line    0x0000000000019555       0x65 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .debug_line    0x00000000000195ba       0x65 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .debug_line    0x000000000001961f       0x62 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_line    0x0000000000019681       0x62 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .debug_line    0x00000000000196e3       0x5b /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line    0x000000000001973e       0x5a /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .debug_line    0x0000000000019798       0x61 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_line    0x00000000000197f9       0xd6 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_line    0x00000000000198cf       0xbb /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_info     0x0000000000000000    0x6f181
+ .debug_info    0x0000000000000000       0x95 arch/arm/cpu/armv7/start.o
+ .debug_info    0x0000000000000095     0x8b8a arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_info    0x0000000000008c1f      0x609 arch/arm/cpu/armv7/libarmv7.o
+ .debug_info    0x0000000000009228     0x14fd arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_info    0x000000000000a725     0x322c arch/arm/lib/libarm.o
+ .debug_info    0x000000000000d951    0x2e726 common/libcommon.o
+ .debug_info    0x000000000003c077     0x14aa disk/libdisk.o
+ .debug_info    0x000000000003d521      0x828 drivers/gpio/libgpio.o
+ .debug_info    0x000000000003dd49      0xdfd drivers/input/libinput.o
+ .debug_info    0x000000000003eb46     0x6b72 drivers/mmc/libmmc.o
+ .debug_info    0x00000000000456b8      0x174 drivers/pcmcia/libpcmcia.o
+ .debug_info    0x000000000004582c       0xba drivers/rtc/librtc.o
+ .debug_info    0x00000000000458e6      0xf81 drivers/serial/libserial.o
+ .debug_info    0x0000000000046867     0x53df drivers/usb/gadget/libusb_gadget.o
+ .debug_info    0x000000000004bc46     0x1dd6 drivers/usb/host/libusb_host.o
+ .debug_info    0x000000000004da1c     0x2d03 fs/ext4/libext4fs.o
+ .debug_info    0x000000000005071f     0x2b9c fs/fat/libfat.o
+ .debug_info    0x00000000000532bb     0x55a6 lib/libfdt/libfdt.o
+ .debug_info    0x0000000000058861     0x4cdd lib/libgeneric.o
+ .debug_info    0x000000000005d53e     0x139f lib/zlib/libz.o
+ .debug_info    0x000000000005e8dd     0x899a net/libnet.o
+ .debug_info    0x0000000000067277     0x6c6b board/samsung/smdk5422/libsmdk5422.o
+ .debug_info    0x000000000006dee2      0x149 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_info    0x000000000006e02b       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .debug_info    0x000000000006e0f3       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .debug_info    0x000000000006e1bb       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_info    0x000000000006e283       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .debug_info    0x000000000006e34b       0xc4 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .debug_info    0x000000000006e40f       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .debug_info    0x000000000006e4d7      0x164 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_info    0x000000000006e63b      0x5c3 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_info    0x000000000006ebfe      0x583 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_abbrev   0x0000000000000000    0x14e45
+ .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
+ .debug_abbrev  0x0000000000000014      0xc13 arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_abbrev  0x0000000000000c27      0x2b5 arch/arm/cpu/armv7/libarmv7.o
+ .debug_abbrev  0x0000000000000edc      0x93a arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_abbrev  0x0000000000001816      0xdbc arch/arm/lib/libarm.o
+ .debug_abbrev  0x00000000000025d2     0x8e48 common/libcommon.o
+ .debug_abbrev  0x000000000000b41a      0x5ec disk/libdisk.o
+ .debug_abbrev  0x000000000000ba06      0x29a drivers/gpio/libgpio.o
+ .debug_abbrev  0x000000000000bca0      0x3ac drivers/input/libinput.o
+ .debug_abbrev  0x000000000000c04c     0x11bb drivers/mmc/libmmc.o
+ .debug_abbrev  0x000000000000d207       0xc0 drivers/pcmcia/libpcmcia.o
+ .debug_abbrev  0x000000000000d2c7       0x60 drivers/rtc/librtc.o
+ .debug_abbrev  0x000000000000d327      0x389 drivers/serial/libserial.o
+ .debug_abbrev  0x000000000000d6b0      0x672 drivers/usb/gadget/libusb_gadget.o
+ .debug_abbrev  0x000000000000dd22      0x665 drivers/usb/host/libusb_host.o
+ .debug_abbrev  0x000000000000e387      0x7b7 fs/ext4/libext4fs.o
+ .debug_abbrev  0x000000000000eb3e      0x738 fs/fat/libfat.o
+ .debug_abbrev  0x000000000000f276      0xeae lib/libfdt/libfdt.o
+ .debug_abbrev  0x0000000000010124     0x1a60 lib/libgeneric.o
+ .debug_abbrev  0x0000000000011b84      0x41b lib/zlib/libz.o
+ .debug_abbrev  0x0000000000011f9f     0x1beb net/libnet.o
+ .debug_abbrev  0x0000000000013b8a      0xde0 board/samsung/smdk5422/libsmdk5422.o
+ .debug_abbrev  0x000000000001496a       0xef /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x0000000000014a59       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x0000000000014a6d       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .debug_abbrev  0x0000000000014a81       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_abbrev  0x0000000000014a95       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .debug_abbrev  0x0000000000014aa9       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .debug_abbrev  0x0000000000014abd       0x14 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .debug_abbrev  0x0000000000014ad1       0xb7 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_abbrev  0x0000000000014b88      0x169 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_abbrev  0x0000000000014cf1      0x154 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_aranges  0x0000000000000000     0x1150
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/cpu/armv7/start.o
+ .debug_aranges
+                0x0000000000000020       0xc0 arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_aranges
+                0x00000000000000e0       0x60 arch/arm/cpu/armv7/libarmv7.o
+ .debug_aranges
+                0x0000000000000140       0xa0 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_aranges
+                0x00000000000001e0       0xc0 arch/arm/lib/libarm.o
+ .debug_aranges
+                0x00000000000002a0      0x638 common/libcommon.o
+ .debug_aranges
+                0x00000000000008d8       0x40 disk/libdisk.o
+ .debug_aranges
+                0x0000000000000918       0x20 drivers/gpio/libgpio.o
+ .debug_aranges
+                0x0000000000000938       0x20 drivers/input/libinput.o
+ .debug_aranges
+                0x0000000000000958       0x80 drivers/mmc/libmmc.o
+ .debug_aranges
+                0x00000000000009d8       0x30 drivers/pcmcia/libpcmcia.o
+ .debug_aranges
+                0x0000000000000a08       0x18 drivers/rtc/librtc.o
+ .debug_aranges
+                0x0000000000000a20       0x20 drivers/serial/libserial.o
+ .debug_aranges
+                0x0000000000000a40       0x20 drivers/usb/gadget/libusb_gadget.o
+ .debug_aranges
+                0x0000000000000a60       0x40 drivers/usb/host/libusb_host.o
+ .debug_aranges
+                0x0000000000000aa0       0x60 fs/ext4/libext4fs.o
+ .debug_aranges
+                0x0000000000000b00       0x40 fs/fat/libfat.o
+ .debug_aranges
+                0x0000000000000b40       0xc0 lib/libfdt/libfdt.o
+ .debug_aranges
+                0x0000000000000c00      0x210 lib/libgeneric.o
+ .debug_aranges
+                0x0000000000000e10       0x20 lib/zlib/libz.o
+ .debug_aranges
+                0x0000000000000e30       0xe0 net/libnet.o
+ .debug_aranges
+                0x0000000000000f10      0x100 board/samsung/smdk5422/libsmdk5422.o
+ .debug_aranges
+                0x0000000000001010       0x20 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x0000000000001030       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x0000000000001050       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x0000000000001070       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_lshrdi3.o)
+ .debug_aranges
+                0x0000000000001090       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_ashldi3.o)
+ .debug_aranges
+                0x00000000000010b0       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .debug_aranges
+                0x00000000000010d0       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_dvmd_lnx.o)
+ .debug_aranges
+                0x00000000000010f0       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_aranges
+                0x0000000000001110       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_aranges
+                0x0000000000001130       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_frame    0x0000000000000000     0x7c24
+ .debug_frame   0x0000000000000000      0x2bc arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_frame   0x00000000000002bc      0x160 arch/arm/cpu/armv7/libarmv7.o
+ .debug_frame   0x000000000000041c      0x218 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_frame   0x0000000000000634      0x41c arch/arm/lib/libarm.o
+ .debug_frame   0x0000000000000a50     0x333c common/libcommon.o
+ .debug_frame   0x0000000000003d8c      0x1ac disk/libdisk.o
+ .debug_frame   0x0000000000003f38      0x144 drivers/gpio/libgpio.o
+ .debug_frame   0x000000000000407c       0xd4 drivers/input/libinput.o
+ .debug_frame   0x0000000000004150      0x600 drivers/mmc/libmmc.o
+ .debug_frame   0x0000000000004750      0x25c drivers/serial/libserial.o
+ .debug_frame   0x00000000000049ac      0x3d8 drivers/usb/gadget/libusb_gadget.o
+ .debug_frame   0x0000000000004d84      0x18c drivers/usb/host/libusb_host.o
+ .debug_frame   0x0000000000004f10      0x248 fs/ext4/libext4fs.o
+ .debug_frame   0x0000000000005158      0x2dc fs/fat/libfat.o
+ .debug_frame   0x0000000000005434      0xab0 lib/libfdt/libfdt.o
+ .debug_frame   0x0000000000005ee4      0x9c0 lib/libgeneric.o
+ .debug_frame   0x00000000000068a4      0x16c lib/zlib/libz.o
+ .debug_frame   0x0000000000006a10      0xa58 net/libnet.o
+ .debug_frame   0x0000000000007468      0x628 board/samsung/smdk5422/libsmdk5422.o
+ .debug_frame   0x0000000000007a90       0x48 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_frame   0x0000000000007ad8       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivsi3.o)
+ .debug_frame   0x0000000000007af8       0x20 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divsi3.o)
+ .debug_frame   0x0000000000007b18       0x28 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x0000000000007b40       0x64 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_frame   0x0000000000007ba4       0x40 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_frame   0x0000000000007be4       0x40 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_str      0x0000000000000000    0x1274a
+ .debug_str     0x0000000000000000     0x4ccc arch/arm/cpu/armv7/exynos/libexynos.o
+                                       0x5fdd (size before relaxing)
+ .debug_str     0x0000000000004ccc      0x229 arch/arm/cpu/armv7/libarmv7.o
+                                        0x94a (size before relaxing)
+ .debug_str     0x0000000000004ef5      0x466 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+                                       0x1195 (size before relaxing)
+ .debug_str     0x000000000000535b     0x149a arch/arm/lib/libarm.o
+                                       0x34d6 (size before relaxing)
+ .debug_str     0x00000000000067f5     0x4d9c common/libcommon.o
+                                      0x16029 (size before relaxing)
+ .debug_str     0x000000000000b591      0x223 disk/libdisk.o
+                                        0xa52 (size before relaxing)
+ .debug_str     0x000000000000b7b4      0x104 drivers/gpio/libgpio.o
+                                        0x3e6 (size before relaxing)
+ .debug_str     0x000000000000b8b8      0x2fb drivers/input/libinput.o
+                                        0x600 (size before relaxing)
+ .debug_str     0x000000000000bbb3      0x6db drivers/mmc/libmmc.o
+                                       0x1d41 (size before relaxing)
+ .debug_str     0x000000000000c28e       0x7e drivers/pcmcia/libpcmcia.o
+                                        0x4b3 (size before relaxing)
+ .debug_str     0x000000000000c30c       0x65 drivers/rtc/librtc.o
+                                        0x24f (size before relaxing)
+ .debug_str     0x000000000000c371      0x31a drivers/serial/libserial.o
+                                        0x760 (size before relaxing)
+ .debug_str     0x000000000000c68b     0x2560 drivers/usb/gadget/libusb_gadget.o
+                                       0x2c90 (size before relaxing)
+ .debug_str     0x000000000000ebeb      0x42f drivers/usb/host/libusb_host.o
+                                       0x10f3 (size before relaxing)
+ .debug_str     0x000000000000f01a      0x559 fs/ext4/libext4fs.o
+                                       0x1872 (size before relaxing)
+ .debug_str     0x000000000000f573      0x5de fs/fat/libfat.o
+                                        0xd54 (size before relaxing)
+ .debug_str     0x000000000000fb51      0x709 lib/libfdt/libfdt.o
+                                       0x1cfd (size before relaxing)
+ .debug_str     0x000000000001025a      0x609 lib/libgeneric.o
+                                       0x2e80 (size before relaxing)
+ .debug_str     0x0000000000010863      0x2cc lib/zlib/libz.o
+                                        0x72c (size before relaxing)
+ .debug_str     0x0000000000010b2f      0xf62 net/libnet.o
+                                       0x5229 (size before relaxing)
+ .debug_str     0x0000000000011a91      0x96a board/samsung/smdk5422/libsmdk5422.o
+                                       0x50bb (size before relaxing)
+ .debug_str     0x00000000000123fb       0x49 /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+                                        0x299 (size before relaxing)
+ .debug_str     0x0000000000012444      0x1aa /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+                                        0x1d9 (size before relaxing)
+ .debug_str     0x00000000000125ee      0x15c /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+                                        0x290 (size before relaxing)
+ .debug_str     0x000000000001274a      0x291 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_loc      0x0000000000000000    0x38cc1
+ .debug_loc     0x0000000000000000     0x1873 arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_loc     0x0000000000001873      0x168 arch/arm/cpu/armv7/libarmv7.o
+ .debug_loc     0x00000000000019db      0x6c1 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_loc     0x000000000000209c      0x8de arch/arm/lib/libarm.o
+ .debug_loc     0x000000000000297a    0x19009 common/libcommon.o
+ .debug_loc     0x000000000001b983      0xa01 disk/libdisk.o
+ .debug_loc     0x000000000001c384      0x54b drivers/gpio/libgpio.o
+ .debug_loc     0x000000000001c8cf      0x937 drivers/input/libinput.o
+ .debug_loc     0x000000000001d206     0x3706 drivers/mmc/libmmc.o
+ .debug_loc     0x000000000002090c      0x499 drivers/serial/libserial.o
+ .debug_loc     0x0000000000020da5     0x1cd6 drivers/usb/gadget/libusb_gadget.o
+ .debug_loc     0x0000000000022a7b      0xed2 drivers/usb/host/libusb_host.o
+ .debug_loc     0x000000000002394d     0x16db fs/ext4/libext4fs.o
+ .debug_loc     0x0000000000025028     0x234a fs/fat/libfat.o
+ .debug_loc     0x0000000000027372     0x3d04 lib/libfdt/libfdt.o
+ .debug_loc     0x000000000002b076     0x4f05 lib/libgeneric.o
+ .debug_loc     0x000000000002ff7b     0x2b1c lib/zlib/libz.o
+ .debug_loc     0x0000000000032a97     0x3537 net/libnet.o
+ .debug_loc     0x0000000000035fce     0x125f board/samsung/smdk5422/libsmdk5422.o
+ .debug_loc     0x000000000003722d       0x2c /home/paralin/Documents/buildroot/buildroot/output/build/uboot-odroidxu3-v2012.07/arch/arm/lib/eabi_compat.o
+ .debug_loc     0x0000000000037259       0xa0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(bpabi.o)
+ .debug_loc     0x00000000000372f9      0xd3c /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_loc     0x0000000000038035      0xc8c /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
+
+.debug_ranges   0x0000000000000000     0x2440
+ .debug_ranges  0x0000000000000000       0x48 arch/arm/cpu/armv7/exynos/libexynos.o
+ .debug_ranges  0x0000000000000048       0x10 arch/arm/cpu/armv7/libarmv7.o
+ .debug_ranges  0x0000000000000058       0xa8 arch/arm/cpu/armv7/s5p-common/libs5p-common.o
+ .debug_ranges  0x0000000000000100       0x68 arch/arm/lib/libarm.o
+ .debug_ranges  0x0000000000000168      0xc38 common/libcommon.o
+ .debug_ranges  0x0000000000000da0       0x30 disk/libdisk.o
+ .debug_ranges  0x0000000000000dd0       0x48 drivers/gpio/libgpio.o
+ .debug_ranges  0x0000000000000e18       0xf0 drivers/input/libinput.o
+ .debug_ranges  0x0000000000000f08      0x208 drivers/mmc/libmmc.o
+ .debug_ranges  0x0000000000001110       0x48 drivers/serial/libserial.o
+ .debug_ranges  0x0000000000001158      0x450 drivers/usb/gadget/libusb_gadget.o
+ .debug_ranges  0x00000000000015a8       0x98 drivers/usb/host/libusb_host.o
+ .debug_ranges  0x0000000000001640       0xf8 fs/ext4/libext4fs.o
+ .debug_ranges  0x0000000000001738       0xb0 fs/fat/libfat.o
+ .debug_ranges  0x00000000000017e8      0x370 lib/libfdt/libfdt.o
+ .debug_ranges  0x0000000000001b58      0x2c0 lib/libgeneric.o
+ .debug_ranges  0x0000000000001e18       0x48 lib/zlib/libz.o
+ .debug_ranges  0x0000000000001e60      0x308 net/libnet.o
+ .debug_ranges  0x0000000000002168      0x140 board/samsung/smdk5422/libsmdk5422.o
+ .debug_ranges  0x00000000000022a8       0xd0 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_divdi3.o)
+ .debug_ranges  0x0000000000002378       0xc8 /home/paralin/Documents/buildroot/buildroot/output/host/usr/lib/gcc/arm-buildroot-linux-gnueabihf/4.9.3/libgcc.a(_udivdi3.o)
